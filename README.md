@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# ClosetMate
 
 `CURSO`
 
