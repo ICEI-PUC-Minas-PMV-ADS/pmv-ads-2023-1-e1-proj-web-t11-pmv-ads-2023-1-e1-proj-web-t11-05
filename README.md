@@ -1,4 +1,4 @@
-# ClosetMate
+# Closetmate
 
 `CURSO`
 
