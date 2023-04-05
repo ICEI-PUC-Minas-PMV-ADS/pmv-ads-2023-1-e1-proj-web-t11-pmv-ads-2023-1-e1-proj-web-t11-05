@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Fabio Henrique Miranda Gomes da Motta 1
 * Rafaela Cardoso de Souza 2
 * Gabriel Batista Vieira
-* Nome completo do aluno 4
+* Diego de Paula Salgado
 
 ## Orientador
 
