@@ -10,10 +10,10 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Fabio Henrique Miranda Gomes da Motta 
-* Rafaela Cardoso de Souza 
-* Gabriel Batista Vieira
+* Gabriel Batista Vieira 
 * Diego de Paula Salgado
+* Victor Lúcio De Menezes Souto
+* 
 
 ## Orientador
 
