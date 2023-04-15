@@ -12,8 +12,8 @@ A nossa aplicação visa ajudar na solução da organização de closets, o usu�
 
 ## Integrantes
 
-* Gabriel Batista Vieira 
 * Diego de Paula Salgado
+* Gabriel Batista Vieira 
 * Victor Lúcio De Menezes Souto
 
 ## Orientador
