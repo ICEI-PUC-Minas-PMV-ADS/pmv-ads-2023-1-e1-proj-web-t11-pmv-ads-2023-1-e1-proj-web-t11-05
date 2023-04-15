@@ -6,6 +6,13 @@ O projeto Closetmate é uma ferramenta útil para ajudar os usuários a gerencia
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
+![p1](https://user-images.githubusercontent.com/126190493/232249653-c9cf0516-55a8-4a01-9cff-796988bfa0f1.png)
+
+![p2](https://user-images.githubusercontent.com/126190493/232249661-faa639f1-939c-4146-badd-d2f544235e1c.png)
+
+![p3](https://user-images.githubusercontent.com/126190493/232249665-b4cc1bd4-60dd-4c6a-815f-9a36e7d67444.png)
+
+
 
 
 ## Histórias de Usuários
