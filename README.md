@@ -1,23 +1,25 @@
 # Closetmate
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 11
 
-`SEMESTRE`
+Eixo 1 - 2023
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+![ClosetMate Logo Novo](https://user-images.githubusercontent.com/126190493/232249247-1276ca3f-e77d-4113-a7ab-082a0df78a40.png)
+
+
+A nossa aplicação visa ajudar na solução da organização de closets, o usuário poderá facilmente gerenciar suas peças de roupas, ver quais peças possuem e como elas podem ser combinadas.
 
 ## Integrantes
 
-* Gabriel Batista Vieira 
 * Diego de Paula Salgado
+* Gabriel Batista Vieira 
 * Victor Lúcio De Menezes Souto
-* 
 
 ## Orientador
 
-* Nome completo do professor 1
+Viviâne De Almeida Tôrres
 
 ## Instruções de utilização
 
