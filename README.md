@@ -2,9 +2,9 @@
 
 Análise e Desenvolvimento de Sistemas
 
-Projeto: Desenvolvimento de Aplicação Web Front-End
+Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 11
 
-EIXO 1
+Eixo 1 - 2023
 
 A nossa aplicação visa ajudar na solução da organização de closets, o usuário poderá facilmente gerenciar suas peças de roupas, ver quais peças possuem e como elas podem ser combinadas.
 
