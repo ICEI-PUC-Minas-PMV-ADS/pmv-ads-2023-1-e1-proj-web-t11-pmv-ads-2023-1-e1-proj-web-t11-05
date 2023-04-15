@@ -4,7 +4,7 @@ O projeto Closetmate é uma ferramenta útil para ajudar os usuários a gerencia
 
 ## Personas
 
-As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem:
 
 ![p1](https://user-images.githubusercontent.com/126190493/232249653-c9cf0516-55a8-4a01-9cff-796988bfa0f1.png)
 
@@ -17,13 +17,13 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 ![image](https://user-images.githubusercontent.com/126190493/232249821-ce882439-76ca-424a-b05e-f811d0cb0f51.png)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto:
 
 ### Requisitos Funcionais
 
@@ -34,5 +34,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ![image](https://user-images.githubusercontent.com/126190493/232249877-1d7d64ba-e9b0-45be-be3c-3d0b31cc1bac.png)
 
 ## Restrições
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir:
 
 ![image](https://user-images.githubusercontent.com/126190493/232249990-08fde610-f0e1-467b-ae68-5798f8aa6b2f.png)
