@@ -6,7 +6,7 @@ Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 11
 
 Eixo 1 - 2023
 
-![ClosetMate Logo Novo p](https://user-images.githubusercontent.com/126190493/232248948-b54b3fba-d4ea-4f78-8335-359005cd5226.png)
+![ClosetMate Logo Novo p](https://user-images.githubusercontent.com/126190493/232249028-aeaa41df-00f2-4345-9f57-cd9295a0a46c.png)
 
 A nossa aplicação visa ajudar na solução da organização de closets, o usuário poderá facilmente gerenciar suas peças de roupas, ver quais peças possuem e como elas podem ser combinadas.
 
