@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Gabriel Batista Vieira 
-* Diego de Paula Salgad
+* Diego de Paula Salgado
 * Victor Lúcio De Menezes Souto
 * 
 
