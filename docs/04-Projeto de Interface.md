@@ -25,6 +25,7 @@ Conforme fluxo de telas do projeto apresentado na sessão anterior, as telas da 
 
 
 - Tela de login
+
 Efetuar a autenticação do usuário através do preenchimento dos campos email e senha. Caso seja o primeiro acesso, o usuário deverá realizar o cadastro por meio do link "Cria conta". Caso o usuário precise redefinir senha, ele pode acessar o link “Esqueceu a senha?”.
 
 
