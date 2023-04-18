@@ -19,10 +19,15 @@ Conforme fluxo de telas do projeto apresentado na sessão anterior, as telas da 
 - Nome de usuário: nome do usuário logado na aplicação;
 
 
+
 ![Estrutura Padrão](https://user-images.githubusercontent.com/126190493/232880590-54d3709c-111c-408e-9291-9f8bc4b6eb97.jpg)
+
+
 
 - Tela de login
 Efetuar a autenticação do usuário através do preenchimento dos campos email e senha. Caso seja o primeiro acesso, o usuário deverá realizar o cadastro por meio do link "Cria conta". Caso o usuário precise redefinir senha, ele pode acessar o link “Esqueceu a senha?”.
+
+
 
 ![Login](https://user-images.githubusercontent.com/126190493/232881893-06db8969-5037-4d1c-9bf2-6ce064b428a9.jpg)
 
