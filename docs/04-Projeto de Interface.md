@@ -42,21 +42,14 @@ Caso o usuário opte por recuperar senha, deverá clicar no link "Esqueceu a sen
 
 Após efetuar o login o usuário é direcionado para a Home-Page, que é apresentado os seguintes componentes abaixo:
 
-Menu lateral – contém os acessos as suas categorias: roupas(camisas, casacos, calças, shorts), sapatos e acessóios;
-
-Categoria Escolhida - contém os itens correspondentes a categoria selecionada pelo usuário;
-
-Crie seu look – espaço destinado ao usuário incluir diversos itens e montar seus looks a seu gosto;
-
-Pesquise aqui - espaço para pesquisar itens cadastrados na aplicação;
-
-Menu principal - menu utilizado para navegação entre as páginas;
-
-Botão + - botão que abre a página de adição de novo item;
-
-Botão sair - botão responável por fazer logout e voltar a tela de login;
-
-Botão do avatar(perfil) - botão responsável para acessar o perfil do usuário logado.
+- Menu lateral – contém os acessos as suas categorias: roupas(camisas, casacos, calças, shorts), sapatos e acessóios;
+- Categoria Escolhida - contém os itens correspondentes a categoria selecionada pelo usuário;
+- Crie seu look – espaço destinado ao usuário incluir diversos itens e montar seus looks a seu gosto;
+- Pesquise aqui - espaço para pesquisar itens cadastrados na aplicação;
+- Menu principal - menu utilizado para navegação entre as páginas;
+- Botão + - botão que abre a página de adição de novo item;
+- Botão sair - botão responável por fazer logout e voltar a tela de login;
+- Botão do avatar(perfil) - botão responsável para acessar o perfil do usuário logado.
 
 ![Home](https://user-images.githubusercontent.com/126190493/232920285-a9ba07bc-4808-43a3-a3a1-c27d7c1257be.jpg)
 
