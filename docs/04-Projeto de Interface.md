@@ -13,10 +13,10 @@ O diagrama apresentado na figura abaixo representa o fluxo de interação do usu
 
 Conforme fluxo de telas do projeto apresentado na sessão anterior, as telas da aplicação estão detalhadas nos itens que se seguem. As telas da aplicação exibem uma estrtura comum que será exposta na figura abaixo:
 
-Menu: elementos de navegação primária, associados a navegação entre as páginas da aplicação.
-Barra lateral: apresenta elementos de navageção secundária, asssociados aos elementos do bloco de conteúdo.
-Pesquisa: campo destinado a pesquisa de elementos do bloco de conteúdo.
-Nome de usuário: nome do usuário logado na aplicação.
+- Menu: elementos de navegação primária, associados a navegação entre as páginas da aplicação;
+- Barra lateral: apresenta elementos de navageção secundária, asssociados aos elementos do bloco de conteúdo;
+- Pesquisa: campo destinado a pesquisa de elementos do bloco de conteúdo;
+- Nome de usuário: nome do usuário logado na aplicação;
 
 
 ![Estrutura Padrão](https://user-images.githubusercontent.com/126190493/232880590-54d3709c-111c-408e-9291-9f8bc4b6eb97.jpg)
