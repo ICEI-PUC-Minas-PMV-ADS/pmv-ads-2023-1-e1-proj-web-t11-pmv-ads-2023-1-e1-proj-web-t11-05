@@ -11,15 +11,19 @@ O diagrama apresentado na figura abaixo representa o fluxo de interação do usu
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+Conforme fluxo de telas do projeto apresentado na sessão anterior, as telas da aplicação estão detalhadas nos itens que se seguem. As telas da aplicação exibem uma estrtura comum que será exposta na figura abaixo:
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+Menu: elementos de navegação primária, associados a navegação entre as páginas da aplicação.
+Barra lateral: apresenta elementos de navageção secundária, asssociados aos elementos do bloco de conteúdo.
+Pesquisa: campo destinado a pesquisa de elementos do bloco de conteúdo.
+Nome de usuário: nome do usuário logado na aplicação.
+
+![Estrutura Padrão](https://user-images.githubusercontent.com/126190493/232880590-54d3709c-111c-408e-9291-9f8bc4b6eb97.jpg)
+
+- Tela de login
+Efetuar a autenticação do usuário através do preenchimento dos campos email e senha. Caso seja o primeiro acesso, o usuário deverá realizar o cadastro por meio do link "Cria conta". Caso o usuário precise redefinir senha, ele pode acessar o link “Esqueceu a senha?”.
+
+![Login](https://user-images.githubusercontent.com/126190493/232881893-06db8969-5037-4d1c-9bf2-6ce064b428a9.jpg)
+
+
+
