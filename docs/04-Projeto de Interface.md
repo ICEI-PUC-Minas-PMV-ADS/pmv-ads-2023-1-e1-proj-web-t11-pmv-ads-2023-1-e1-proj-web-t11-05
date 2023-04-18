@@ -18,6 +18,7 @@ Barra lateral: apresenta elementos de navageção secundária, asssociados aos e
 Pesquisa: campo destinado a pesquisa de elementos do bloco de conteúdo.
 Nome de usuário: nome do usuário logado na aplicação.
 
+
 ![Estrutura Padrão](https://user-images.githubusercontent.com/126190493/232880590-54d3709c-111c-408e-9291-9f8bc4b6eb97.jpg)
 
 - Tela de login
