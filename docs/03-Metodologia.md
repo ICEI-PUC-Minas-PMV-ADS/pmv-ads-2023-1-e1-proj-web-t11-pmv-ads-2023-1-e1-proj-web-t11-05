@@ -3,8 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
+O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta duração e reuniões diárias virtuais. A equipe utiliza uma ferramenta de gerenciamento de projetos online e um sistema de controle de versão para o código fonte. As cerimônias do Scrum são realizadas virtualmente para planejar, revisar e melhorar continuamente o trabalho.
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
@@ -39,7 +38,13 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Divisão de Papéis no Projeto:
+
+ Scrum Master: Diego de Paula Salgado
+
+ Product Owner: Gabriel Batista Vieira
+
+ Membro do Time de Desenvolvimento: Victor Lúcio De Menezes Souto
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -60,9 +65,9 @@ Coloque  informações sobre detalhes da implementação do Scrum seguido pelo g
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Visual Studio Code 
+- Ferramentas de comunicação: Teams e Whatsapp
+- Ferramentas de desenho de tela: MarvelApp
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
