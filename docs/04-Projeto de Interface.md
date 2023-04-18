@@ -11,7 +11,7 @@ O diagrama apresentado na figura abaixo representa o fluxo de interação do usu
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto apresentado na sessão anterior, as telas da aplicação estão detalhadas nos itens que se seguem. As telas da aplicação exibem uma estrtura comum que será exposta na figura abaixo:
+Conforme fluxo de telas do projeto apresentado na sessão anterior, as telas da aplicação estão detalhadas nos itens que se seguem. As telas da aplicação exibem uma estrutura comum que será exposta na figura abaixo:
 
 - Menu: elementos de navegação primária, associados a navegação entre as páginas da aplicação;
 - Barra lateral: apresenta elementos de navageção secundária, asssociados aos elementos do bloco de conteúdo;
