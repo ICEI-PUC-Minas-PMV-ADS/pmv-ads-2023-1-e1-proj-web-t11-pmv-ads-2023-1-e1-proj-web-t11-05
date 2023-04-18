@@ -31,3 +31,39 @@ Efetuar a autenticação do usuário através do preenchimento dos campos email 
 Caso o usuário seja um usuário novo e deseja se cadastrar, após ele clicar no link “Criar conta” na tela de login, ele será direcionado para tela de cadastro que solicitará os seguintes dados: nome, sobrenome, email, confirmação de email, senha, confirmação de senha, e sexo para efetivar o cadastramento. Na sequência, a tela é fechada direcionando para Homepage do cliente já cadastrado.
 
 ![Cadastro](https://user-images.githubusercontent.com/126190493/232917205-d7ae96d2-71df-426e-a847-9313081bb304.jpg)
+
+- Tela de recuperação de senha
+
+Caso o usuário opte por recuperar senha, deverá clicar no link "Esqueceu a senha?" na tela de login, será direcionado para tela abaixo, que irá requerer um telefone cadastrado ou e-mail válidos para receber um código e efetivar a alteração.
+
+![recuperacao](https://user-images.githubusercontent.com/126190493/232918480-185889ef-3565-4b9d-a607-4a662eed59d3.jpg)
+
+- Tela Home-page
+
+Após efetuar o login o usuário é direcionado para a Home-Page, que é apresentado os seguintes componentes abaixo:
+
+Menu lateral – contém os acessos as suas categorias: roupas(camisas, casacos, calças, shorts), sapatos e acessóios;
+
+Categoria Escolhida - contém os itens correspondentes a categoria selecionada pelo usuário;
+
+Crie seu look – espaço destinado ao usuário incluir diversos itens e montar seus looks a seu gosto;
+
+Pesquise aqui - espaço para pesquisar itens cadastrados na aplicação;
+
+Menu principal - menu utilizado para navegação entre as páginas;
+
+Botão + - botão que abre a página de adição de novo item;
+
+Botão sair - botão responável por fazer logout e voltar a tela de login;
+
+Botão do avatar(perfil) - botão responsável para acessar o perfil do usuário logado.
+
+![Home](https://user-images.githubusercontent.com/126190493/232920285-a9ba07bc-4808-43a3-a3a1-c27d7c1257be.jpg)
+
+
+
+
+
+
+
+
