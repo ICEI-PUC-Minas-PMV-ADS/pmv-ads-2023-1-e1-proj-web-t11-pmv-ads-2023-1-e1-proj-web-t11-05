@@ -26,5 +26,8 @@ Efetuar a autenticação do usuário através do preenchimento dos campos email 
 
 ![Login](https://user-images.githubusercontent.com/126190493/232881893-06db8969-5037-4d1c-9bf2-6ce064b428a9.jpg)
 
+- Tela de cadastro de usuário
 
+Caso o usuário seja um usuário novo e deseja se cadastrar, após ele clicar no link “Criar conta” na tela de login, ele será direcionado para tela de cadastro que solicitará os seguintes dados: nome, sobrenome, email, confirmação de email, senha, confirmação de senha, e sexo para efetivar o cadastramento. Na sequência, a tela é fechada direcionando para Homepage do cliente já cadastrado.
 
+![Cadastro](https://user-images.githubusercontent.com/126190493/232917205-d7ae96d2-71df-426e-a847-9313081bb304.jpg)
