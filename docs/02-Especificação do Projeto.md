@@ -27,7 +27,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-![image](https://user-images.githubusercontent.com/126190493/232249849-d85cd466-345b-421b-8766-9927d4d22c46.png)
+![Requisitos funcionais](https://user-images.githubusercontent.com/126190493/232943081-d1fcfd0f-3f57-41bd-9fc2-37b503102722.jpg)
 
 ### Requisitos não Funcionais
 
