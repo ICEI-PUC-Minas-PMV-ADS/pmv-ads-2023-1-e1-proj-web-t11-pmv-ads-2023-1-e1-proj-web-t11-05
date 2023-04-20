@@ -82,11 +82,11 @@ A figura abaixo ilustra a utilização do Kanban board:
 
 As ferramentas empregadas no projeto são:
 
-- GitHub: repositório do projeto
-- VS Code: editor de código
-- MarvelApp: ferramenta de design
-- Microsoft Teams: ferramenta para reuniões
-- WhatsApp: ferramenta para cominucações rápidas
+- GitHub: repositório do projeto;
+- VS Code: editor de código;
+- MarvelApp: ferramenta de design;
+- Microsoft Teams: ferramenta para reuniões;
+- WhatsApp: ferramenta para cominucações rápidas;
 
 
 O editor de código foi escolhido porque ele possui uma integração com o
