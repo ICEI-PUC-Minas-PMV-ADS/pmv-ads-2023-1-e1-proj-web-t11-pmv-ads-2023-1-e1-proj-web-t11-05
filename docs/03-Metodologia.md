@@ -55,6 +55,8 @@ Divisão de Papéis no Projeto:
  Product Owner: Gabriel Batista Vieira
 
  Membro do Time de Desenvolvimento: Victor Lúcio De Menezes Souto
+ 
+ Membros do Time de Designes: Gabriel Batista Vieira, Diego de Paula Salgado  e Victor Lúcio De Menezes Souto
 
 
 ### Processo
