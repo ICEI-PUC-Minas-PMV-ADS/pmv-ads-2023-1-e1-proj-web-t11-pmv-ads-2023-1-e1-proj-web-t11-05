@@ -10,6 +10,7 @@ O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta
 |  Ambiente             | Plataforma | Link de acesso                                                                                                                 |
 |-----------------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
 |Repositório do projeto | GitHub     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/blob/main/README.md |
+|-----------------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
 |Design de interfaces   | MarvelApp  | https://marvelapp.com/project/6694194                                                                                          |
 |Gerenciamento do projeto| GitHub    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/418                                                                    |
 
