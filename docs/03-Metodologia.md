@@ -68,11 +68,11 @@ Divisão de Papéis no Projeto:
 
 A ferramenta "projects" do GitHub está sendo utilizada para a organização e distribuição de tarefas seguindo a listagem abaixo:
 
-  - Backlog: contém as tarefas identificadas e necessárias para a criação do produto;
-  - To do: contém as tarefas que serão incluídas na sprint;
-  - In progress: contém as tarefas que foram iniciadas e estão em desenvolvimento;
-  - In review: contém as tarefas serão checadas, de forma a se controlar a qualidade do desenvolvimento;
-  - Done: contém as tarefas que foram concluídas;
+  **- Backlog:** contém as tarefas identificadas e necessárias para a criação do produto;
+  **- To do:** contém as tarefas que serão incluídas na sprint;
+  **- In progress:** contém as tarefas que foram iniciadas e estão em desenvolvimento;
+  **- In review:** contém as tarefas serão checadas, de forma a se controlar a qualidade do desenvolvimento;
+  **- Done:** contém as tarefas que foram concluídas;
 
 A figura abaixo ilustra a utilização do Kanban board:
 
@@ -84,11 +84,11 @@ A figura abaixo ilustra a utilização do Kanban board:
 
 As ferramentas empregadas no projeto são:
 
-- GitHub: repositório do projeto;
-- VS Code: editor de código;
-- MarvelApp: ferramenta de design;
-- Microsoft Teams: ferramenta para reuniões;
-- WhatsApp: ferramenta para cominucações rápidas;
+**- GitHub:** repositório do projeto;
+**- VS Code:** editor de código;
+**- MarvelApp:** ferramenta de design;
+**- Microsoft Teams:** ferramenta para reuniões;
+**- WhatsApp:** ferramenta para cominucações rápidas;
 
 
 O editor de código foi escolhido porque ele possui uma integração com o
