@@ -51,7 +51,7 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Divisão de Papéis no Projeto:
 
  - Scrum Master: 
-  .Diego de Paula Salgado
+  --Diego de Paula Salgado
 
  - Product Owner: 
   - Gabriel Batista Vieira
