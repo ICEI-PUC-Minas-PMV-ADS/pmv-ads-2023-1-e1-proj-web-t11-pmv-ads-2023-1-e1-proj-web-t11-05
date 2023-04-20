@@ -76,7 +76,8 @@ A ferramenta "projects" do GitHub está sendo utilizada para a organização e d
 
 A figura abaixo ilustra a utilização do Kanban board:
 
-![Kanban Board](https://user-images.githubusercontent.com/126190493/233441137-a98b27b0-4449-4fa0-a913-67cae7266f6c.jpg)
+![Kanban Board](https://user-images.githubusercontent.com/126190493/233445535-fc10b114-cc9c-4e14-bed8-72e8aacce735.jpg)
+
 
 
 ### Ferramentas
