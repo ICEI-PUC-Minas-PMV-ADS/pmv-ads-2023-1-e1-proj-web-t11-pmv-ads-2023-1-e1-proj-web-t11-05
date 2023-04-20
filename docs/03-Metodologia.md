@@ -4,6 +4,11 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta duração e reuniões diárias virtuais. A equipe utiliza uma ferramenta de gerenciamento de projetos online e um sistema de controle de versão para o código fonte. As cerimônias do Scrum são realizadas virtualmente para planejar, revisar e melhorar continuamente o trabalho.
+
+## Ambientes de trabalho
+
+| Ambiente | Plataforma | Link de acesso                                                 |
+|----------|------------|----------------------------------------------------------------|
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
