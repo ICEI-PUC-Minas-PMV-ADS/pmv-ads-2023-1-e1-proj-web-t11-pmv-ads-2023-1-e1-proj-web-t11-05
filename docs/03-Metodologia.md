@@ -54,15 +54,15 @@ Divisão de Papéis no Projeto:
    - Diego de Paula Salgado
 
  - Product Owner: 
-  - Gabriel Batista Vieira
+   - Gabriel Batista Vieira
 
  - Equipe de Desenvolvimento: 
-  - Victor Lúcio De Menezes Souto
+   - Victor Lúcio De Menezes Souto
  
  - Equipe de Design: 
-  - Gabriel Batista Vieira
-  - Diego de Paula Salgado  
-  - Victor Lúcio De Menezes Souto
+   - Gabriel Batista Vieira
+   - Diego de Paula Salgado  
+   - Victor Lúcio De Menezes Souto
 
 
 ### Processo
