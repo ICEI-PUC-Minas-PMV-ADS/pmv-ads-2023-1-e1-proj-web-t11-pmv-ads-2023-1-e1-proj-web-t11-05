@@ -28,11 +28,11 @@ O projeto segue a seguinte convenção para o nome de branches:
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `design `: melhorias ou acréscimos ao visual
-- `picth  `: melhorias ou revisão para apresentação
-- `feature`: uma nova funcionalidade precisa ser introduzida
-- `test   `: uma nova funcionalidade precisa ser testada
+- `documentation`: melhorias ou acréscimos à documentação;
+- `design `: melhorias ou acréscimos ao visual;
+- `picth  `: melhorias ou revisão para apresentação;
+- `feature`: uma nova funcionalidade precisa ser introduzida;
+- `test   `: uma nova funcionalidade precisa ser testada;
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
