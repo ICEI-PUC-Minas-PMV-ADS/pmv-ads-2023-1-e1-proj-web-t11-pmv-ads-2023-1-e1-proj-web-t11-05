@@ -10,7 +10,7 @@ O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta
 |  Ambiente             | Plataforma | Link de acesso                                                                                                                 |
 |-----------------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
 |Repositório do projeto | GitHub     | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/blob/main/README.md |
-|-----------------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
+|                       |            |                                                                                                                                |
 
 ## Controle de Versão
 
