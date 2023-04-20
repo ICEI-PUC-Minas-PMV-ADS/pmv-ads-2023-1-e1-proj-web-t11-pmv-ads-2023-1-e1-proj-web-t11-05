@@ -68,7 +68,7 @@ Divisão de Papéis no Projeto:
 
 A ferramenta "projects" do GitHub está sendo utilizada para a organização e distribuição de tarefas seguindo a listagem abaixo:
 
-  **- Backlog:** contém as tarefas identificadas e necessárias para a criação do produto;
+  - **Backlog:** contém as tarefas identificadas e necessárias para a criação do produto;
   **- To do:** contém as tarefas que serão incluídas na sprint;
   **- In progress:** contém as tarefas que foram iniciadas e estão em desenvolvimento;
   **- In review:** contém as tarefas serão checadas, de forma a se controlar a qualidade do desenvolvimento;
