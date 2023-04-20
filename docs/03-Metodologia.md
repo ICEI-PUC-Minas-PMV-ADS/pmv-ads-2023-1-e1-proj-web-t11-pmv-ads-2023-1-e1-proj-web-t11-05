@@ -50,13 +50,19 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 Divisão de Papéis no Projeto:
 
- Scrum Master: Diego de Paula Salgado
+ - Scrum Master: 
+  - Diego de Paula Salgado
 
- Product Owner: Gabriel Batista Vieira
+ - Product Owner: 
+  - Gabriel Batista Vieira
 
- Membro do Time de Desenvolvimento: Victor Lúcio De Menezes Souto
+ - Equipe de Desenvolvimento: 
+  - Victor Lúcio De Menezes Souto
  
- Membros do Time de Designes: Gabriel Batista Vieira, Diego de Paula Salgado  e Victor Lúcio De Menezes Souto
+ - Equipe de Design: 
+  - Gabriel Batista Vieira
+  - Diego de Paula Salgado  
+  - Victor Lúcio De Menezes Souto
 
 
 ### Processo
