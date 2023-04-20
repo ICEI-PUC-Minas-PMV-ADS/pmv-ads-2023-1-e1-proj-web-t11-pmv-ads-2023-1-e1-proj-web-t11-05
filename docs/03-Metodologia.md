@@ -5,7 +5,7 @@
 
 O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta duração e reuniões diárias virtuais. A equipe utiliza uma ferramenta de gerenciamento de projetos online e um sistema de controle de versão para o código fonte. As cerimônias do Scrum são realizadas virtualmente para planejar, revisar e melhorar continuamente o trabalho.
 
-## Ambientes de trabalho
+## Relação de ambientes de trabalho
 
 |  Ambiente             | Plataforma | Link de acesso                                                                                                                 |
 |-----------------------|------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -67,20 +67,28 @@ Divisão de Papéis no Projeto:
 
 ### Processo
 
-Andamento:
+A ferramenta "projects" do GitHub está sendo utilizada para a organização e distribuição de tarefas seguindo a listagem abaixo:
 
-    Acompanhamos o projeto com ferramentas online para gerenciar backlog e verificar o status de desenvolvimento.
-    Reuniões diárias para alinhar o progresso das tarefas e identificar impedimentos.
-    Planejamentos de sprint, revisões e retrospectivas para definir tarefas, avaliar desempenho e ajustar o processo.
- 
+  - Backlog: é responsável por receber e registrar as tarefas a serem realizadas no projeto, e funciona como uma representação do Product Backlog. É fundamental que todas as atividades identificadas ao longo do projeto sejam incluídas nessa lista.
+
+To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+
+In progress: Quando uma tarefa tiver sido iniciada, ela é movida para esta coluna.
+
+Test: Checagem de Qualidade. Ao certificar que a tarefa foi finalizada e está em teste, é movida para esta coluna.
+
+Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias.
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código: Visual Studio Code 
-- Ferramentas de comunicação: Teams e Whatsapp
-- Ferramentas de desenho de tela: MarvelApp
+- GitHub: repositório do projeto
+- VS Code: editor de código
+- MarvelApp: ferramenta de design
+- Microsoft Teams: ferramenta para reuniões
+- WhatsApp: ferramenta para cominucações rápidas
+
 
 O editor de código foi escolhido porque ele possui uma integração com o
 sistema de versão. As ferramentas de comunicação utilizadas possuem
@@ -88,8 +96,4 @@ integração semelhante e por isso foram selecionadas. Por fim, para criar
 diagramas utilizamos essa ferramenta por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+
