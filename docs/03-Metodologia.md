@@ -91,6 +91,6 @@ As ferramentas empregadas no projeto são:
 - **WhatsApp:** ferramenta para cominucações rápidas;
 
 
-Optamos por utilizar o editor de código VS Code devido à sua integração com o reposutório do projeto GitHub. As ferramentas de comunicação foram escolhidas com base em sua praticidade e usabilidade, enquanto a ferramenta de criação de diagramas o MarvelApp foi selecionado por sua capacidade de representar de forma mais clara e precisa as necessidades da solução que estamos desenvolvendo.
+Optamos por utilizar o editor de código VS Code devido à sua integração com o repositório do projeto o GitHub e o sistema de versão o Git. As ferramentas de comunicação foram escolhidas com base em sua praticidade e usabilidade, enquanto a ferramenta de criação de diagramas o MarvelApp foi selecionado por sua capacidade de representar de forma mais clara e precisa as necessidades da solução que estamos desenvolvendo.
 
 
