@@ -69,15 +69,16 @@ Divisão de Papéis no Projeto:
 
 A ferramenta "projects" do GitHub está sendo utilizada para a organização e distribuição de tarefas seguindo a listagem abaixo:
 
-  - Backlog: é responsável por receber e registrar as tarefas a serem realizadas no projeto, e funciona como uma representação do Product Backlog. É fundamental que todas as atividades identificadas ao longo do projeto sejam incluídas nessa lista.
+  - Backlog: contém as tarefas identificadas e necessárias para a criação do produto;
+  - To do: contém as tarefas que serão incluídas na sprint;
+  - In progress: contém as tarefas que foram iniciadas e estão em desenvolvimento;
+  - In review: contém as tarefas serão checadas, de forma a se controlar a qualidade do desenvolvimento;
+  - Done: contém as tarefas que foram concluídas;
 
-To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+A figura abaixo ilustra a utilização do Kanban board:
 
-In progress: Quando uma tarefa tiver sido iniciada, ela é movida para esta coluna.
+![Kanban Board](https://user-images.githubusercontent.com/126190493/233441137-a98b27b0-4449-4fa0-a913-67cae7266f6c.jpg)
 
-Test: Checagem de Qualidade. Ao certificar que a tarefa foi finalizada e está em teste, é movida para esta coluna.
-
-Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias.
 
 ### Ferramentas
 
