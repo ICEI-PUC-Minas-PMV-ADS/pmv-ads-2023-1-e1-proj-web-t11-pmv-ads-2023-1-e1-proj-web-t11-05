@@ -20,7 +20,7 @@ Pensando nesse contexto optamos por adotar este metodo para gerenciar o código 
 
 Para a gestão do código fonte, será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura a seguir:
 
-![Gitflow](https://user-images.githubusercontent.com/126190493/233542555-edb25a00-9ba6-427e-8fb8-6137e5463df1.jpg)
+![Gitflow](https://user-images.githubusercontent.com/126190493/233542824-06780290-a41d-4009-a237-8f2fe1865bac.jpg)
 
 A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para hospedagem do repositório.
 
