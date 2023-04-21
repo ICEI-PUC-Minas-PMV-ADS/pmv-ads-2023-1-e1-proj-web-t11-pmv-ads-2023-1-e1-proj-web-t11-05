@@ -18,7 +18,7 @@ O Gitflow é uma metodologia de gerenciamento de versionamento de código fonte 
 
 Pensando nesse contexto optamos por adotar este metodo para gerenciar o código fonte do software que vamos desenvolver.
 
-Para a gestão do código fonte será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura a seguir:
+Para a gestão do código fonte, será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura a seguir:
 
 ![Gitflow](https://user-images.githubusercontent.com/126190493/233539178-def0cb5f-59db-4b5f-9b22-746cec00a5db.jpg)
 
