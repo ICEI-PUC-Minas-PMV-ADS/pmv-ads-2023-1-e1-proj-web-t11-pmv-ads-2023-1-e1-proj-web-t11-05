@@ -14,16 +14,19 @@ O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
+Para a gestão do código fonte será utilizado o modelo de processo baseado no Git Flow, como mostrado na figura a seguir:
+
+![Gitflow](https://user-images.githubusercontent.com/126190493/233539178-def0cb5f-59db-4b5f-9b22-746cec00a5db.jpg)
+
+A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: versão estável já testada do projeto;
+- `hotfix`: branche utilizada para resolução de bugs simples; 
+- `release`: branche de testes do projeto;
+- `develop`: branche de desenvolvimento do projeto;
+-  feature` branche utilizada para introdução de novas funcionalidades no projeto;
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
