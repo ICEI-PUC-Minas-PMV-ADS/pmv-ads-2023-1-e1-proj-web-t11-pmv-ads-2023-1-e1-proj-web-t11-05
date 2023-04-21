@@ -26,11 +26,11 @@ A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Gi
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do projeto;
-- `hotfix`: branche utilizada para resolução de bugs simples; 
-- `release`: branche de testes do projeto;
-- `develop`: branche de desenvolvimento do projeto;
 - `feature`: branche utilizada para introdução de novas funcionalidades no projeto;
+- `develop`: branche de desenvolvimento do projeto;
+- `release`: branche de testes do projeto;
+- `hotfix`: branche utilizada para resolução de bugs simples; 
+- `main`: versão estável já testada do projeto;
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
