@@ -14,7 +14,7 @@ O grupo utiliza a metodologia Scrum para atacar o problema, com sprints de curta
 
 ## Controle de Versão
 
-O Gitflow é uma metodologia de gerenciamento de versionamento de código fonte que foi introduzida em 2010 por Vincent Driessen. È baseado no sistema de controle de versão Git e é especialmente útil para equipes de desenvolvimento de software que trabalham em projetos grandes e complexos, pois ajuda a manter um fluxo de trabalho organizado e estruturado.
+O Gitflow é uma metodologia de gerenciamento de versionamento de código fonte que foi introduzida em 2010 por Vincent Driessen. É baseado no sistema de controle de versão Git e é especialmente útil para equipes de desenvolvimento de software que trabalham em projetos grandes e complexos, pois ajuda a manter um fluxo de trabalho organizado e estruturado.
 
 Pensando nesse contexto optamos por adotar um método baseado no GitFlow para gerenciar o código fonte do software que vamos desenvolver.
 
