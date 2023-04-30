@@ -20,7 +20,8 @@ As personas levantadas durante o processo de entendimento do problema são apres
 A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 
-![Historia de usuaário](https://user-images.githubusercontent.com/126190493/232942776-1ad05793-d2ba-4662-900b-76ff2d4cbeb2.jpg)
+
+![Historia de usuaário](https://user-images.githubusercontent.com/126190493/232945159-41c2cee6-d56a-41ab-8f00-039550216822.jpg)
 
 ## Requisitos
 
@@ -28,13 +29,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-![Requisitos funcionais](https://user-images.githubusercontent.com/126190493/232943081-d1fcfd0f-3f57-41bd-9fc2-37b503102722.jpg)
+![funcionais](https://user-images.githubusercontent.com/126190493/232945674-2102386b-568a-4ef1-a9e0-be1a7d5eeb6f.jpg)
 
 ### Requisitos não Funcionais
 
-![image](https://user-images.githubusercontent.com/126190493/232249877-1d7d64ba-e9b0-45be-be3c-3d0b31cc1bac.png)
+![nao funcionais](https://user-images.githubusercontent.com/126190493/232945266-7068238c-8058-4ca8-9c70-34b15e316146.jpg)
 
 ## Restrições
 As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir:
 
-![image](https://user-images.githubusercontent.com/126190493/232249990-08fde610-f0e1-467b-ae68-5798f8aa6b2f.png)
+![restricoes](https://user-images.githubusercontent.com/126190493/232945332-66e11392-38ff-4ce7-8c91-5f849f7a1041.jpg)
+
+
