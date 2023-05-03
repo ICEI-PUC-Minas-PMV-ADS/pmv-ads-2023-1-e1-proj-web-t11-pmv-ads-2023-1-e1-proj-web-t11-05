@@ -8,4 +8,4 @@ UNICESUMAR. Roupa e personalidade. 27/10/2020. Disponível em: https://www.unice
 
 ESTADO, Correio. Cientistas afirmam que roupas alteram comportamento das pessoas. 02/03/2016. Disponível em: https://correiodoestado.com.br/correio-b/cientistas-afirmam-que-roupas-alteram-comportamento-das-pessoas/272058. Acesso em 31/03/2023
 
-YOUTUBE, Trabalhando em equipe com o Git Flow. 24/07/2021. Disponível em: https://www.youtube.com/watch?v=394mc6PV8t8. Acesso em 20/04/2023
+YOUTUBE. Trabalhando em equipe com o Git Flow. 24/07/2021. Disponível em: https://www.youtube.com/watch?v=394mc6PV8t8. Acesso em 20/04/2023
