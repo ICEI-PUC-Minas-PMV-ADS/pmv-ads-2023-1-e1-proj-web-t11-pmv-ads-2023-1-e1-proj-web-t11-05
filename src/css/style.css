@@ -1,0 +1,6 @@
+.btn-primary {
+    background-color: black;
+    border-width: 0;
+    border-style: solid;
+    border-color: #007bff; /* cor do botão primário */
+  }
