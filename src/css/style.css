@@ -15,6 +15,16 @@ body*{
   align-items: center; /* centraliza no eixo y */
 }
 
+.main-recuperacao{
+  width: 100vw; /* ocupa 100% da largura da viewport*/
+  height: 100vh; /* ocupa 100% da altura da viewport*/
+  background: lightgrey; 
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column;
+}
+
 .imagem{
   width: 50vw;
   height: 100vh;
@@ -79,6 +89,22 @@ body*{
   text-align: center;
 }
 
+.titulorecup{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.subtitulorecup{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
 .link{
   width: 100%;
   align-items: flex-start;
@@ -101,7 +127,24 @@ body*{
   box-sizing: border-box;  
 }
 
+.campo > input {
+  border: 0%;
+  background: white;
+  align-items: flex-start;
+  outline: none; /*pra não criar uma caixa branca ao redor da caixa de texto*/
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-sizing: border-box;  
+
+}
+
 .btn-entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     width: 85%;
     border: none;
     color: white;
@@ -115,6 +158,47 @@ body*{
     letter-spacing: 3px; /* Espassamento entre as letras */
     cursor: pointer; /* Muda o cursor ao passar em cima */
   }
+
+  .btn-enviar{
+    width: 120px;
+    border: none;
+    color: white;
+    background: rgba(100, 100, 100, 0.74);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    outline: none;
+    text-transform: uppercase; /* Põe todas as letras maiusculas */
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+    cursor: pointer; /* Muda o cursor ao passar em cima */
+    justify-content: center;
+    display: flex; 
+    border-radius: 4px;
+  }
+
+  .btn-enviar:hover{
+    color: black;
+  }
+
+   fieldset.grupo .campo{
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    justify-content: right;
+    align-items: left;
+    outline: none;
+  }
+
+  label {
+    width: 10vw;
+    display: flex;
+    margin-right: 1em;
+  }
+
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
