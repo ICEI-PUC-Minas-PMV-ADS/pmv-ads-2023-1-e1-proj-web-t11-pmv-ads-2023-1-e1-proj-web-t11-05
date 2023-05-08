@@ -1,6 +1,132 @@
-.btn-primary {
-    background-color: black;
-    border-width: 0;
-    border-style: solid;
-    border-color: #007bff; /* cor do botão primário */
+body{
+  margin: 0;
+}
+
+.main-login{ /* estilo da div principal que engloba todos os elementos */
+  width: 100vw; /* ocupa 100% da largura da viewport*/
+  height: 100vh; /* ocupa 100% da altura da viewport*/
+  background: lightgrey; 
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+}
+
+.imagem{
+  width: 50vw;
+  height: 100vh;
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
+}
+
+.closetimagem{
+  width: 35vw;
+}
+
+.login{
+  width: 50vw;
+  height: 100vh;
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+}
+
+.painel-login{
+  width: 55%; /* pega 55% da div que ele está */
+  height: 75%;
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
+  border-radius: 3px;
+  background: whitesmoke;
+  padding: 10px 10px;
+  box-shadow: 0 10px 30px #46454585; /* sombra */
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.titulo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: ce;nter;
+  justify-content: center;
+  outline: none;
+  text-align: center
+}
+
+.sublogin{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.link{
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+
+}
+
+.textfield > input {
+  width: 85%;
+  border: 0%;
+  background: white;
+  align-items: flex-start;
+  outline: none; /*pra não criar uma caixa branca ao redor da caixa de texto*/
+  justify-content: center;
+  padding: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-sizing: border-box;  
+}
+
+.btn-entrar {
+    width: 85%;
+    border: none;
+    color: white;
+    background: rgba(100, 100, 100, 0.74);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 10px;
+    outline: none;
+    text-transform: uppercase; /* Põe todas as letras maiusculas */
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+    cursor: pointer; /* Muda o cursor ao passar em cima */
   }
+
+  @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
+    .painel-login {
+      width: 95%;
+    }
+    .imagem{
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width:600px){ /* para dispositivos com telas menores que 600px */
+    .painel-login {
+      width: 95%; 
+  }
+    .closetimagem2{
+      display: flex;
+    }
+  }
+  
