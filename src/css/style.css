@@ -1,10 +1,13 @@
 body{
   margin: 0;
+  background: lightgray;
 }
 
 body*{
   box-sizing: border-box;
 }
+
+
 
 .main-login{ /* estilo da div principal que engloba todos os elementos */
   width: 100vw; /* ocupa 100% da largura da viewport*/
@@ -69,8 +72,18 @@ body*{
   text-align: center;
 }
 
+.form-control{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  outline: none;
+
+
+}
+
 .main-cadastro{
   background: lightgrey; 
+  width: 100vw;
   
 }
 
@@ -82,6 +95,7 @@ body*{
   justify-content: center;
   outline: none;
   text-align: center
+  
 }
 
 .sublogin{
@@ -201,6 +215,7 @@ body*{
     width: 10vw;
     display: flex;
     margin-right: 1em;
+    position: relative;
   }
 
   .formulario-cadastro{
@@ -224,22 +239,100 @@ body*{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center
+    text-align: center;
+    margin-bottom: 3rem;
+    
   }
 
   form{
     padding:10px;
   }
 
-  .nomecompleto{
-    position: relative;
-    left: 200px;
-    top:-80px
-    
-
-
+  input {
+    outline: none;
   }
 
+  input[type="submit"]{
+    width: 95%;
+    cursor: pointer;  
+    background: rgba(100, 100, 100, 0.74);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+    text-transform: uppercase; /* Põe todas as letras maiusculas */
+    margin-top: 3px;
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+  }
+
+
+  input[type="submit"]:hover{
+  color: black;
+  }
+
+  input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }
+
+  p{
+    margin-bottom:15px;
+  }
+
+  .conteudo{
+    width: 500px;
+    min-height: 560px;    
+    margin: 0px auto;
+    position: relative;   
+    background: lightgrey;
+  }
+
+  h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+  }
+
+  .closetimagemcad{
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .subtitulo_cad{
+    position: relative;
+    width: 100%;
+    margin-bottom: 2em;
+    font-weight: 600; /* Engrossa a letra */
+    margin-left: 1em;
+  }
+
+  .cadastro.label{
+    font-weight: 600;
+  }
+
+  .opcoes option{
+    font-size:15px;
+    width: 90%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }
+
+  .opcoes {
+    position: relative;
+    width: 91%;
+    margin-left: 10px;
+    margin-bottom: 3em;
+  }
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {

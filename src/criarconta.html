@@ -15,49 +15,64 @@
 
 </head>
     <body>
-        <div class="main-cadastro">
-           <div class ="titulo-cadastro"><img src="img/Closetmatesfundo.png" class="closetimagemcadastro" alt="Closetmate"></div>
-            <div clas ="formulario-cadastro">
-                <form>
-                    <h3 class="nome">Nome e Sobrenome:</h3>
-                    <input class="nomecompleto" type="text" name="nome-completo">
-             
-                    <h3 class="nome">Telefone com DDD:</h3>
-                    <input class="telefone" type="tel" name ="telefone-ddd">
+        <div class="conteudo">
+        <div id="cadastro">
+            <form method="post" action=""> 
+              <div>
+              <img src="img/Closetmatesfundo.png" class="closetimagemcad" alt="Closetmate">
+              </div>
+              <div class="subtitulo_cad" h6 >Preencha os dados abaixo para a criação do seu cadastro:</div></h6> 
+              <p> 
+                <label style="font-weight: 600" for="nome_cad">Seu nome:</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+              </p>
+               
+              <p> 
+                <label style="font-weight: 600" for="tel_cad">Seu telefone:</label>
+                <input id="tel_cad" name="tel_cad" required="required" type="tel" placeholder="(00) 0 0000-0000" />
 
-                    <h3 class="nome">Email:</h3>
-                    <input class="email" type="email" name ="email-user">
+              <p> 
+                <label style="font-weight: 600" for="email_cad">Seu e-mail:</label>
+                <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@closetmate.com"/> 
+              </p>
+               
+              <p> 
+                <label style="font-weight: 600" for="conf_email_cad">Confirme o email:</label>
+                <input id="conf_email_cad" name="conf_email_cad" required="required" type="email" placeholder="contato@closetmate.com"/>
+              </p>
 
-                    <h3 class="nome">Confirme seu email:</h3>
-                    <input class="email" type="email" name ="conf-email-user">
+              <p> 
+                <label style="font-weight: 600" for="senha_cad">Sua senha:</label>
+                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. Ca1234"/>
+              </p>
 
-                    <h3 class="nome">Senha:</h3>
-                    <input class="senha" type="password" name ="senha-user">
+              <p> 
+                <label style="font-weight: 600" for="senha_cad">Confirme senha:</label>
+                <input id="conf_senha_cad" name="conf_senha_cad" required="required" type="password" placeholder="ex. Ca1234"/>
+              </p>
 
-                    <h3 class="nome">Confirme sua senha:</h3>
-                    <input class="senha" type="password" name ="conf-senha-user">
-
-                    <h3 class="nome">Selecione o sexo:</h3>
-                    
-                <select class = opcoes name="assunto">
-
-                         <option disabled="disabled" selected="selected">--Selecione a opção</option>
-                         <option>Feminino</option>
-                         <option>Masculino</option>
+              <div class="row">
+                <label style="font-weight: 600" for="Sexo_cad">Selecione o sexo:</label>
+                <select class="opcoes" name="assunto">
+                    <option disabled="disabled" selected="selected">Selecione a opção</option>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
                 </select>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-
-                </form>
-            </div> 
-        </div> 
-
-
-
-
-            
-        
+              </div> 
+               
+              <p> 
+                <input type="submit" value="Cadastrar"/> 
+              </p>
+               
+              <p class="link">  
+                Já tem conta?
+                <a href="login.html"> Ir para Login </a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>  
+    </div> 
     
     
       <!-- JS Bootstrap -->
