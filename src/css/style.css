@@ -268,7 +268,6 @@ body*{
     letter-spacing: 3px; /* Espassamento entre as letras */
   }
 
-
   input[type="submit"]:hover{
   color: black;
   }
@@ -307,32 +306,7 @@ body*{
     margin-bottom: 1em;
   }
 
-  .subtitulo_cad{
-    position: relative;
-    width: 100%;
-    margin-bottom: 2em;
-    font-weight: 600; /* Engrossa a letra */
-    margin-left: 1em;
-  }
-
-  .cadastro.label{
-    font-weight: 600;
-  }
-
-  .opcoes option{
-    font-size:15px;
-    width: 90%;
-    margin-top: 4px;
-    padding: 10px;    
-    border: 1px solid #b2b2b2;
-  }
-
-  .opcoes {
-    position: relative;
-    width: 91%;
-    margin-left: 10px;
-    margin-bottom: 3em;
-  }
+  <
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
