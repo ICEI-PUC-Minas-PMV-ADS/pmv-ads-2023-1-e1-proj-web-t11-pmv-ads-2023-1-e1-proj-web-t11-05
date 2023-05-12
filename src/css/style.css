@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: lightgray;
+  background: rgb(202, 198, 198);
 }
 
 body*{
@@ -321,6 +321,109 @@ body*{
     font-weight: 600;
   }
 
+ .logo_index{
+  width: 12em;
+  padding: 10px;
+  position: relative;
+ }
+
+ .link_perfil{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+ }
+
+ .logo_perfil{
+  display: flex;
+  width: 150em;
+  position: relative;
+  height: 150px;
+  flex-direction: column;
+  padding: 10px;
+ }
+
+ main{
+  display:flex;
+  width: 100%;
+  position: relative;
+ }
+
+ .menu_principal{
+  width:100%;
+ }
+
+ .nome_usuario{
+  display: flex;
+  width: 30%;
+  margin-top: 4em;
+  margin-left: 16em;
+  color: rgb(61, 60, 60);
+ }
+
+ header{
+  display: flex;
+  height: 150px;
+  position: relative;
+ }
+ 
+ .sair_index{
+  width: 3em;
+  display: flex;
+  position: relative;
+  margin-top: 6em;
+  margin-right: 15em;
+ }
+
+ form.d-flex{
+  margin-top: 3em;
+  margin-left: 9em;
+  margin-right: 7em;
+ }
+
+ p.link_index{
+  margin-left: 25px;
+ }
+
+ h2{
+  width: 250px;
+ }
+
+ hr {
+  margin: 40px 0;
+}
+
+.menu_index{
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: flex-end;
+  gap: 5px;
+  height: 36px;
+}
+
+.menu_index li{
+  list-style: none;
+  margin-right: 3em;
+  }
+
+.menu_index a{
+  display:block;
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(61, 60, 60);
+  font-weight: 750;
+  margin-right: 4em;
+  
+}
+
+.menu_index a:hover{
+ background-color: rgb(202, 198, 198);
+ color: whitesmoke;
+}
+
+
+
+
+  
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
       width: 90%;
