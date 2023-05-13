@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  background: rgb(202, 198, 198);
+  background: lightgray;
 }
 
 body*{
@@ -77,14 +77,23 @@ body*{
   display: flex;
   justify-content: center;
   outline: none;
-
-
 }
 
 .main-cadastro{
   background: lightgrey; 
-  width: 100vw;
-  
+  width: 100vw; 
+}
+
+.link_cadastro{
+  display: flex;
+  border-bottom: 1em;
+  border-left: 20em;
+  width: 700px;
+  text-decoration: none;
+}
+
+p.link{
+  margin-top: 1em;
 }
 
 .titulo{
@@ -94,8 +103,7 @@ body*{
   align-items: center;
   justify-content: center;
   outline: none;
-  text-align: center
-  
+  text-align: center;
 }
 
 .sublogin{
@@ -143,6 +151,7 @@ body*{
   margin-top: 2px;
   margin-bottom: 2px;
   box-sizing: border-box;  
+  
 }
 
 .campo > input {
@@ -284,15 +293,55 @@ body*{
   }
 
   .conteudo{
-    width: 500px;
+    display: flex;
+    width: 80%;
     min-height: 560px;    
-    margin: 0px auto;
     position: relative;   
     background: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    box-sizing: border-box;  
+  }
+
+  #cadastro{
+    display: flex;
+    width: 51%;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  button.btn.btn-cadastro{
+    position: relative;
+    background: rgba(100, 100, 100, 0.74);
+    width: 506px;
+    height: 55px;
+    border: none;
+    color: white;
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+    cursor: pointer; /* Muda o cursor ao passar em cima */
+    padding: 14px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+  button.btn.btn-cadastro:hover{
+    color: black;
+    text-decoration: none;
   }
 
   .closetimagemcad{
-    margin-left: 2em;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 65px;
     margin-bottom: 1em;
   }
 
@@ -418,6 +467,11 @@ body*{
 .menu_index a:hover{
  background-color: rgb(202, 198, 198);
  color: whitesmoke;
+}
+
+.link_entrada a{
+text-decoration: none;
+
 }
 
 
