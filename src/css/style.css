@@ -519,6 +519,7 @@ h4.titulo{
 .side-bar .menu{
   width: 100%;
   margin-top: 80px;
+  background: rgb(122, 122, 122);
 }
 
 .side-bar .menu .item{
@@ -536,7 +537,7 @@ h4.titulo{
 }
 
 .side-bar .menu .item a:hover{
-  background: #8621F8;
+  background: whitesmoke;
   transition: 0.3s ease;
 
 }
@@ -554,7 +555,7 @@ h4.titulo{
 }
 
 .side-bar .menu .item .sub-menu{
-  background: rgba(255,255,255 , 0.1);
+  background: rgb(122, 122, 122);
   display:none;
 }
 
