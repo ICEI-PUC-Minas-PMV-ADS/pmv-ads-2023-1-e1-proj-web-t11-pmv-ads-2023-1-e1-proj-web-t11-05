@@ -478,7 +478,7 @@ border-color: #adadad;
 
 .menu_index li{
   list-style: none;
-  margin-right: 3em;
+  margin-right: 4em;
   }
 
 .menu_index a{
@@ -505,7 +505,7 @@ nav{
   background-color: lightgrey;
   height: 100%;
 }
-
+/* start menu lateral*/
 .tit-categoria{
   display: flex;
   position: relative;
@@ -606,8 +606,12 @@ h4.titulo{
   right: 0;
   margin: 25px;
   cursor: pointer;
+<<<<<<< Updated upstream
 
 }
+=======
+}      
+>>>>>>> Stashed changes
 
 .menu-btn{
   position: absolute;
@@ -663,7 +667,7 @@ h4.titulo{
 
     }
   }
-
+/* Fim menu lateral*/
   
 
   
