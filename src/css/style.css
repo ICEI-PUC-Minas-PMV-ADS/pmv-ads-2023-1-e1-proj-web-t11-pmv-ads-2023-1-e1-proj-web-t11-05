@@ -371,15 +371,17 @@ p.link{
   }
 
  .logo_index{
+  display: flex;
   width: 12em;
   padding: 10px;
   position: relative;
  }
 
- .link_perfil{
+ p.link_perfil{
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-left: -3px;
  }
 
  .logo_perfil{
@@ -389,6 +391,12 @@ p.link{
   height: 150px;
   flex-direction: column;
   padding: 10px;
+ }
+
+ #logo-perfil{
+  display: flex;
+  position: relative;
+  margin-left: -30px;
  }
 
  main{
@@ -484,12 +492,14 @@ nav{
   display: flex;
   position: relative;
   background: rgb(122, 122, 122);
-  width: 250px;
+  width: 25%;
   height: 100%;  
+  flex-direction: column;
+  margin-top: 0px;
+  float: left;
 }
 
 h4.titulo{
-  display: flex;
   position: relative;
   margin-top: 8px;
   margin-right: 3em;
@@ -497,8 +507,10 @@ h4.titulo{
 }
 
 .barra-lateral{
-  display: inline-block;
   width: 250px;
+  margin-top: 0px;
+  flex-direction: column;
+  float: left;
 }
 
 .side-bar{
@@ -525,6 +537,7 @@ h4.titulo{
   width: 100%;
   margin-top: 0px;
   background: rgb(122, 122, 122);
+
 }
 
 .side-bar .menu .item{
@@ -580,7 +593,7 @@ h4.titulo{
   right: 0;
   margin: 25px;
   cursor: pointer;
-
+  visibility: hidden;
 }
 
 .menu-btn{
@@ -591,20 +604,101 @@ h4.titulo{
   cursor:pointer;
 }
 
-.conteudo-itens{
-  display: inline-block;
-  position: relative;
-  height: 100vh;
-  width: 800px;
+
+.itens{
+  margin-left: 2em;
+  margin-top: 3em;
+  display: flex;
+}
+
+#camisa{
+  padding: 10px;
+  padding-top: 30px;
+  text-align: center;
+}  
+
+.itens h3{
+position: absolute;
+margin-top: -30px;
+margin-left: 20px;
+height: 30px;
+width: 100px;
+}
+
+.painel-look{
+  width: 380px; /* pega 55% da div que ele está */
+  height: 500px;
+  display: flex; /* permite alterar a posição dos itens */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
+  border-radius: 3px;
+  background: whitesmoke;
+  padding: 10px 10px;
+  box-shadow: 0 10px 30px #46454585; /* sombra */
+  border-top: 2em;
 }
 
 .monte-look{
-  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   position: relative;
+  border-top: 0px;
+}
+
+.monte-look h5{
+  position: relative; 
+}
+
+input.btn.btn-salvar {
+  position: relative;
+  background: rgba(100, 100, 100, 0.74);
+  width: 200px;
+  height: 55px;
+  border: none;
+  color: white;
+  font-weight: 600; /* Engrossa a letra */
+  letter-spacing: 3px; /* Espassamento entre as letras */
+  cursor: pointer; /* Muda o cursor ao passar em cima */
+  padding: 14px;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  margin-top: 470px;
+  text-decoration: none;
+  outline: none;
+}
+
+input.btn.btn-salvar:hover{
+  width: 200px;
+  height: 55px;
+  padding: none;
+  color: black;
+  text-decoration: none;
+}
+
+button.btn.btn-adicionar{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  background: rgba(100, 100, 100, 0.74);
+  color: white;
+  font-weight: 600;
+  cursor:pointer;
+  padding:14px;
+  justify-content: center;
+}
+
+ul.menu_index{
+  width: 100%;
+}
+
+.hidden{
+  display: none;
 }
 
 
-  
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
       width: 90%;
