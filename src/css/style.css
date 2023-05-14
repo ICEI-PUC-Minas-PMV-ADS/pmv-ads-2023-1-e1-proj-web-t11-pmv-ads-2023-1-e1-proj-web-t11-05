@@ -1,6 +1,753 @@
-.btn-primary {
-    background-color: black;
-    border-width: 0;
-    border-style: solid;
-    border-color: #007bff; /* cor do botão primário */
+body{
+  margin: 0;
+  background: lightgray;
+}
+
+body*{
+  box-sizing: border-box;
+}
+
+
+
+.main-login{ /* estilo da div principal que engloba todos os elementos */
+  width: 100vw; /* ocupa 100% da largura da viewport*/
+  height: 100vh; /* ocupa 100% da altura da viewport*/
+  background: lightgrey; 
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+}
+
+.main-recuperacao{
+  width: 100vw; /* ocupa 100% da largura da viewport*/
+  height: 100vh; /* ocupa 100% da altura da viewport*/
+  background: lightgrey; 
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column;
+}
+
+.imagem{
+  width: 50vw;
+  height: 100vh;
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
+}
+
+.closetimagem{
+  width: 35vw;
+}
+
+.login{
+  width: 50vw;
+  height: 100vh;
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+}
+
+.painel-login{
+  width: 55%; /* pega 55% da div que ele está */
+  height: 75%;
+  display: flex; /* permite alterar a posição dos itens */
+  justify-content: center; /* centraliza no eixo x */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
+  border-radius: 3px;
+  background: whitesmoke;
+  padding: 10px 10px;
+  box-shadow: 0 10px 30px #46454585; /* sombra */
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.form-control{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.main-cadastro{
+  background: lightgrey; 
+  width: 100vw; 
+}
+
+.link_cadastro{
+  display: flex;
+  border-bottom: 1em;
+  border-left: 20em;
+  width: 700px;
+  text-decoration: none;
+}
+
+p.link{
+  margin-top: 1em;
+}
+
+.titulo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.sublogin{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.titulorecup{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.subtitulorecup{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.link{
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  outline: none;
+  text-align: center;
+}
+
+.textfield > input {
+  width: 85%;
+  border: 0%;
+  background: white;
+  align-items: flex-start;
+  outline: none; /*pra não criar uma caixa branca ao redor da caixa de texto*/
+  justify-content: center;
+  padding: 8px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-sizing: border-box;  
+  
+}
+
+.campo > input {
+  border: 0%;
+  background: white;
+  align-items: flex-start;
+  outline: none; /*pra não criar uma caixa branca ao redor da caixa de texto*/
+  justify-content: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-sizing: border-box;  
+
+}
+
+.btn-entrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 22vw;
+    border: none;
+    color: white;
+    background: rgba(100, 100, 100, 0.74);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 10px;
+    outline: none;
+    text-transform: uppercase; /* Põe todas as letras maiusculas */
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+    cursor: pointer; /* Muda o cursor ao passar em cima */
   }
+
+  .btn-enviar{
+    width: 120px;
+    border: none;
+    color: white;
+    background: rgba(100, 100, 100, 0.74);
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    outline: none;
+    text-transform: uppercase; /* Põe todas as letras maiusculas */
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+    cursor: pointer; /* Muda o cursor ao passar em cima */
+    justify-content: center;
+    display: flex; 
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
+
+  .btn-enviar:hover{
+    color: black;
+  }
+
+   fieldset.grupo .campo{
+    display: flex;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-right: 1em;
+    justify-content: right;
+    align-items: left;
+    outline: none;
+  }
+
+  label {
+    width: 10vw;
+    display: flex;
+    margin-right: 1em;
+    position: relative;
+  }
+
+  .formulario-cadastro{
+    width: 800px;
+    margin: auto;
+  }
+
+  #nome{
+    width: 100%;
+    height: 100px;
+  }
+
+  .nome{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 125px;
+  }
+
+  .titulo-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+  }
+
+  form{
+    padding:10px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input[type="submit"]{
+    width: 95%;
+    cursor: pointer;  
+    background: rgba(100, 100, 100, 0.74);
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid rgba(100, 100, 100, 0.74);   
+    margin-bottom: 10px;  
+    text-transform: uppercase; /* Põe todas as letras maiusculas */
+    margin-top: 3px;
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+  }
+
+  input[type="submit"]:hover{
+  color: black;
+  }
+
+/*.cadastro > input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }*/
+
+  p{
+    margin-bottom:15px;
+  }
+
+  .conteudo{
+    display: flex;
+    width: 80%;
+    min-height: 560px;    
+    position: relative;   
+    background: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    box-sizing: border-box;  
+  }
+
+  #cadastro{
+    display: flex;
+    width: 51%;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    
+  }
+
+  button.btn.btn-cadastro{
+    position: relative;
+    background: rgba(100, 100, 100, 0.74);
+    width: 506px;
+    height: 55px;
+    border: none;
+    color: white;
+    font-weight: 600; /* Engrossa a letra */
+    letter-spacing: 3px; /* Espassamento entre as letras */
+    cursor: pointer; /* Muda o cursor ao passar em cima */
+    padding: 14px;
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    text-decoration: none;
+  }
+
+  button.btn.btn-cadastro:hover{
+    color: black;
+    text-decoration: none;
+  }
+
+  .closetimagemcad{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 65px;
+    margin-bottom: 1em;
+  }
+
+  label{
+    font-size: 15px;
+  }
+
+  .opcoes option{
+    font-size:15px;
+    width: 90%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+  }
+
+  .opcoes {
+    position: relative;
+    width: 91%;
+    margin-left: 10px;
+    margin-bottom: 3em;
+  }
+
+  .subtitulo_cad{
+    margin-left: 15px;
+    margin-bottom: 2em;
+    font-weight: 600;
+  }
+
+ .logo_index{
+  display: flex;
+  width: 12em;
+  padding: 10px;
+  position: relative;
+ }
+
+ p.link_perfil{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: -3px;
+ }
+
+ .logo_perfil{
+  display: flex;
+  width: 150em;
+  position: relative;
+  height: 150px;
+  flex-direction: column;
+  padding: 10px;
+ }
+
+ #logo-perfil{
+  display: flex;
+  position: relative;
+  margin-left: -30px;
+ }
+
+ main{
+  display:flex;
+  width: 100%;
+  position: relative;
+ }
+
+ .menu_principal{
+  width:100%;
+ }
+
+ .nome_usuario{
+  display: flex;
+  width: 30%;
+  margin-top: 4em;
+  margin-left: 16em;
+  color: rgb(61, 60, 60);
+ }
+
+ header{
+  display: flex;
+  height: 150px;
+  position: relative;
+ }
+ 
+ .sair_index{
+  width: 3em;
+  display: flex;
+  position: relative;
+  margin-top: 6em;
+  margin-right: 15em;
+ }
+
+ form.d-flex{
+  margin-top: 3em;
+  margin-left: 9em;
+  margin-right: 7em;
+ }
+
+ p.link_index{
+  margin-left: 08px;
+ }
+
+ h2{
+  width: 250px;
+ }
+
+ hr {
+  margin: 40px 0;
+}
+
+.menu_index{
+  display: flex;
+  background-color: whitesmoke;
+  justify-content: flex-end;
+  gap: 5px;
+  height: 36px;
+  margin-bottom: 0px;
+}
+
+.menu_index li{
+  list-style: none;
+  margin-right: 3em;
+  }
+
+.menu_index a{
+  display:block;
+  text-decoration: none;
+  padding: 6px;
+  color: rgb(61, 60, 60);
+  font-weight: 750;
+  margin-right: 4em;
+  
+}
+
+.menu_index a:hover{
+ background-color: rgb(202, 198, 198);
+ color: whitesmoke;
+}
+
+.link_entrada a{
+text-decoration: none;
+}
+
+nav{
+  width: 250px;
+  background-color: lightgrey;
+  height: 100%;
+}
+
+.tit-categoria{
+  display: flex;
+  position: relative;
+  background: rgb(122, 122, 122);
+  width: 25%;
+  height: 100%;  
+  flex-direction: column;
+  margin-top: 0px;
+  float: left;
+}
+
+h4.titulo{
+  position: relative;
+  margin-top: 8px;
+  margin-right: 3em;
+  font-weight: 650;
+}
+
+.barra-lateral{
+  width: 250px;
+  margin-top: 0px;
+  flex-direction: column;
+  float: left;
+}
+
+.side-bar{
+  background: rgba(255,255,255 , 0.1);
+  backdrop-filter:blur(15px);
+  width: 290px;
+  height: 100vh;
+  position: fixed;
+  top:0;
+  left: -100%;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
+}
+
+.side-bar.active{
+  width: 250px;
+  display: flex;
+  position: relative;
+  left: 0;
+}
+
+.side-bar .menu{
+  width: 100%;
+  margin-top: 0px;
+  background: rgb(122, 122, 122);
+
+}
+
+.side-bar .menu .item{
+  position:relative;
+  cursor:pointer;
+}
+
+.side-bar .menu .item a{
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.side-bar .menu .item a:hover{
+  background: whitesmoke;
+  transition: 0.3s ease;
+
+}
+
+.side-bar .menu .item i{
+  margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown{
+
+  position: absolute;
+  right:0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu{
+  background: rgb(122, 122, 122);
+  display:none;
+}
+
+.side-bar .menu .item .sub-menu a{
+  padding-left: 80px;
+}
+
+.rotate{
+  transform: rotate(90deg);
+}
+
+.close-btn{
+  position: absolute;
+  color: rgb(218, 56, 56);
+  font-size: 20px;
+  right: 0;
+  margin: 25px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.menu-btn{
+  position: absolute;
+  color: #fff;
+  font-size: 20px;
+  margin: 25px;
+  cursor:pointer;
+}
+
+
+.itens{
+  margin-left: 2em;
+  margin-top: 3em;
+  display: flex;
+}
+
+#camisa{
+  padding: 10px;
+  padding-top: 30px;
+  text-align: center;
+}  
+
+.itens h3{
+position: absolute;
+margin-top: -30px;
+margin-left: 20px;
+height: 30px;
+width: 100px;
+}
+
+.painel-look{
+  width: 380px; /* pega 55% da div que ele está */
+  height: 500px;
+  display: flex; /* permite alterar a posição dos itens */
+  align-items: center; /* centraliza no eixo y */
+  flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
+  border-radius: 3px;
+  background: whitesmoke;
+  padding: 10px 10px;
+  box-shadow: 0 10px 30px #46454585; /* sombra */
+  border-top: 2em;
+}
+
+.monte-look{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  border-top: 0px;
+}
+
+.monte-look h5{
+  position: relative; 
+}
+
+input.btn.btn-salvar {
+  position: relative;
+  background: rgba(100, 100, 100, 0.74);
+  width: 200px;
+  height: 55px;
+  border: none;
+  color: white;
+  font-weight: 600; /* Engrossa a letra */
+  letter-spacing: 3px; /* Espassamento entre as letras */
+  cursor: pointer; /* Muda o cursor ao passar em cima */
+  padding: 14px;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  margin-top: 470px;
+  text-decoration: none;
+  outline: none;
+}
+
+input.btn.btn-salvar:hover{
+  width: 200px;
+  height: 55px;
+  padding: none;
+  color: black;
+  text-decoration: none;
+}
+
+button.btn.btn-adicionar{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  background: rgba(100, 100, 100, 0.74);
+  color: white;
+  font-weight: 600;
+  cursor:pointer;
+  padding:14px;
+  justify-content: center;
+}
+
+ul.menu_index{
+  width: 100%;
+}
+
+.hidden{
+  display: none;
+}
+
+button.btn.btn-pesquisar{
+  color:black;
+  border-color: black;
+  background: rgba(100, 100, 100, 0.74);
+  font-weight: 600;
+}
+
+button.btn.btn-pesquisar:hover{
+  color: white;
+}
+
+form.d-flex{
+  border: none;
+  outline: none;
+}
+
+
+  @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
+    .painel-login {
+      width: 90%;
+    }
+   
+  }
+
+  @media only screen and (max-width:600px){ /* para dispositivos com telas menores que 600px */
+    .main-login {
+      flex-direction: column-reverse;
+    }
+    .titulo{
+      display:none; /* retira o titulo abaixo do logo */
+    } 
+    .sublogin{
+      display: none;
+    }
+
+    .imagem{ /* aumentanto o lado a div imagem */
+      width: 100%;
+      height: auto;
+    }
+    .painel-login{ /* aumentanto o lado a div painel-login */
+      width: 100%;
+      height: auto;
+    }
+
+    .closetimagem{
+      width: 50vw;
+
+    }
+  }
+
+  
+
+  
