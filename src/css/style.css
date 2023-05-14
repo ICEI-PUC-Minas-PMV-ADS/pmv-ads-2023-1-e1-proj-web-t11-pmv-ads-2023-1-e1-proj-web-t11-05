@@ -698,6 +698,22 @@ ul.menu_index{
   display: none;
 }
 
+button.btn.btn-pesquisar{
+  color:black;
+  border-color: black;
+  background: rgba(100, 100, 100, 0.74);
+  font-weight: 600;
+}
+
+button.btn.btn-pesquisar:hover{
+  color: white;
+}
+
+form.d-flex{
+  border: none;
+  outline: none;
+}
+
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
