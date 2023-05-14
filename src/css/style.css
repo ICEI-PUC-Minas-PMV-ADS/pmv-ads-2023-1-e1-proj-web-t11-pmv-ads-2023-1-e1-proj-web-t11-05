@@ -491,9 +491,14 @@ nav{
 h4.titulo{
   display: flex;
   position: relative;
-  justify-content: center;
-  align-items: center;
-  margin-top: 5px;
+  margin-top: 8px;
+  margin-right: 3em;
+  font-weight: 650;
+}
+
+.barra-lateral{
+  display: inline-block;
+  width: 250px;
 }
 
 .side-bar{
@@ -528,12 +533,13 @@ h4.titulo{
 }
 
 .side-bar .menu .item a{
-  color: #fff;
+  color: black;
   font-size: 16px;
   text-decoration: none;
   display: block;
   padding: 5px 30px;
   line-height: 60px;
+  font-weight: 500;
 }
 
 .side-bar .menu .item a:hover{
@@ -569,11 +575,12 @@ h4.titulo{
 
 .close-btn{
   position: absolute;
-  color: #fff;
+  color: rgb(218, 56, 56);
   font-size: 20px;
   right: 0;
   margin: 25px;
   cursor: pointer;
+
 }
 
 .menu-btn{
@@ -584,9 +591,17 @@ h4.titulo{
   cursor:pointer;
 }
 
+.conteudo-itens{
+  display: inline-block;
+  position: relative;
+  height: 100vh;
+  width: 800px;
+}
 
-
-
+.monte-look{
+  display: inline-block;
+  position: relative;
+}
 
 
   
