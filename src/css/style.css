@@ -7,8 +7,6 @@ body*{
   box-sizing: border-box;
 }
 
-
-
 .main-login{ /* estilo da div principal que engloba todos os elementos */
   width: 100vw; /* ocupa 100% da largura da viewport*/
   height: 100vh; /* ocupa 100% da altura da viewport*/
@@ -72,12 +70,12 @@ body*{
   text-align: center;
 }
 
-.form-control{
+/*.form-control{
   width: 50%;
   display: flex;
   justify-content: center;
   outline: none;
-}
+}*/
 
 .main-cadastro{
   background: lightgrey; 
@@ -254,9 +252,9 @@ p.link{
     
   }
 
-  form{
+/*form{
     padding:10px;
-  }
+  }*/
 
   input {
     outline: none;
@@ -712,6 +710,11 @@ button.btn.btn-pesquisar:hover{
 form.d-flex{
   border: none;
   outline: none;
+}
+
+form.adicionar-itens{
+  display: flex;
+  width: 200px;
 }
 
 
