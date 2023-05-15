@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta - Closetmate</title>
+    <link rel="icon" type="image/x-icon" href="img/hanger.ico">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS do Projeto -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body> 
+      <div class="conteudo-itens">
+        <div class="espaco-itens"></div>
+        <div class="imagem-itens">
+            <div class="espaco2-itens">
+            <br><br><br><br><br><br><br>  
+            </div>
+            <label class="picture" for="picture__input" tabIndex="0">
+            <span class="picture__image">Selecione a imagem</span>
+          </label>
+          
+          <input type="file" name="picture__input" id="picture__input">
+        </div>
+
+        <div id="cadastro-itens">
+            <form method="post" action=""> 
+              <div id="imagem-sub">
+              <img src="img/Closetmatesfundo.png" class="closetimagemcad" alt="Closetmate" style="width:200px">
+              <strong><div class="subtitulo_caditens" h5 >Adicionar itens no Closetmate</div></h5></strong>
+              </div>
+              
+              <br> 
+              <p> 
+                <strong><label style="font-weight: 600" for="nome_cad">Nome do item:</label></strong>
+                <input style ="width:60%" id="nome_caditens" name="nome_caditens" type="text">
+              </p>
+               
+              <p> 
+                <strong><label style="font-weight: 600" for="marca_caditens">Marca:</label></strong>
+                <input style ="width:60%" id="marca_caditens" name="marca_caditens" type="text">
+
+              <p> 
+                <strong></strong><label style="font-weight: 600" for="categoria_caditens">Categoria:</label></p></strong>
+                <select class="opcoes-itens" name="opcoes-itens" style="width:60%">
+                  <option disabled="disabled" selected="selected">Selecione a opção</option>
+                  <option>Camisetas</option>
+                  <option>Calças</option>
+                  <option>Shorts</option>
+                  <option>Vestidos</option>
+                  <option>Suéters</option>
+                  <option>Moletons</option>
+                  <option>Leggings</option>
+                  <option>Tênis casual</option>
+                  <option>Tênis esportivo</option>
+                  <option>Sapatos</option>
+                  <option>Chinelos</option>
+                  <option>Rasteirinhas</option>
+                  <option>Botas</option>
+                  <option>Coturnos</option>
+                  <option>Boné</option>
+                  <option>Chapéu</option>
+                  <option>Óculos de sol</option>
+                  <option>Touca</option>
+                  <option>Cachecol</option>
+                  <option>Gravata</option>
+                  <option>Cinto</option>
+                  <option>Bolsasr</option>
+              </select> 
+              </p>
+               
+              <p> 
+                <strong><label style="font-weight: 600" for="desc_itens">Descrição extra:</label></strong>
+                <input id="desc-itens" name="desc-itens" type="text">
+              </p>
+              <div class="row">     
+              </div> 
+            </form>
+            <div class="link_cadastro">
+              <a href=""><button type="submit" class= "btn btn-cadastro" style="text-decoration:none">Cadastrar</button></a>
+            </div>
+        </div>
+      </div>
+
+      
+      <!-- JS Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+      <!-- JS do Projeto -->
+      <script src="js/script.js"></script>
+
+    </body>
+</html>
