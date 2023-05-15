@@ -717,6 +717,7 @@ form.d-flex{
 #desc-itens{
   width: 500px;
   height: 150px;
+  outline: none;
 }
 
 .conteudo-itens{
