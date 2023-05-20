@@ -1,0 +1,79 @@
+.closetimagem{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+                     
+}
+.closetimagem{
+                        
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+                     
+/* Estilo básico para o formulário */
+                     
+form{
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    background-color: #c8c7c7;
+    border: 1px solid #b8b7b7;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  form {
+    box-sizing: content-box;
+    width: 30%;
+    height: 105vh;
+  }
+
+
+                       
+label, input, select {
+    display: inline-block;
+    margin-bottom: 1px;
+}
+                       
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+                       
+/* Estilo para os campos de entrada */
+input, select {
+    width: 100%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+                       
+/* Estilo para o campo de entrada de arquivo */
+ input[type="file"] {
+    padding: 3px;
+    border: none;
+    border-radius: 0;
+    background-color: #fff;
+    box-shadow: none;
+}
+                       
+/* Estilo para as etiquetas */
+    label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+ }
+                       
+/* Estilo para o botão de envio */
+.input[type="submit"]:hover {
+    background-color: #0056b3;
+}
