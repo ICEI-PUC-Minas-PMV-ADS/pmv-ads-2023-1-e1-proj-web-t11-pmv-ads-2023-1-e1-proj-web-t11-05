@@ -7,6 +7,8 @@ body*{
   box-sizing: border-box;
 }
 
+
+
 .main-login{ /* estilo da div principal que engloba todos os elementos */
   width: 100vw; /* ocupa 100% da largura da viewport*/
   height: 100vh; /* ocupa 100% da altura da viewport*/
@@ -70,12 +72,12 @@ body*{
   text-align: center;
 }
 
-/*.form-control{
+.form-control{
   width: 50%;
   display: flex;
   justify-content: center;
   outline: none;
-}*/
+}
 
 .main-cadastro{
   background: lightgrey; 
@@ -252,9 +254,9 @@ p.link{
     
   }
 
-/*form{
+  form{
     padding:10px;
-  }*/
+  }
 
   input {
     outline: none;
@@ -712,9 +714,102 @@ form.d-flex{
   outline: none;
 }
 
-form.adicionar-itens{
+#desc-itens{
+  width: 500px;
+  height: 150px;
+  outline: none;
+}
+
+.conteudo-itens{
   display: flex;
-  width: 200px;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+.espaco-itens{
+  display: flex;
+  position: relative;
+  width: 10vw;
+  height: 100vh;
+}
+
+.row1{
+  display: flex;
+  position: relative;
+  width: 35vw;
+  height: 10vh;
+}
+
+.imagem-itens{
+  display: flex;
+  position: relative;
+  width: 25vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#cadastro-itens{
+  display: flex;
+  position: relative;
+  width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#picture__input {
+  display: none;
+}
+
+.picture {
+  width: 300px;
+  height: 660px;
+  aspect-ratio: 16/9;
+  background: #ddd;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border: 2px dashed currentcolor;
+  cursor: pointer;
+  transition: color 300ms ease-in-out, background 300ms ease-in-out;
+  outline: none;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.picture:hover {
+  color: #777;
+  background: #ccc;
+}
+
+.picture:active {
+  border-color: turquoise;
+  color: turquoise;
+  background: #eee;
+}
+
+.picture:focus {
+  color: #777;
+  background: #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.picture__img {
+  max-width: 100%;
+}
+
+.espaco2-itens{
+  display: flex;
+  position: relative;
+}
+
+.subtitulo_caditens{
+  display: flex;
+  position: relative;
+  width: 50%;
 }
 
 

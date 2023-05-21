@@ -1,0 +1,35 @@
+a{
+    text-decoration: nome;
+    color:black;
+    display: block;
+    padding: 5px 20px;
+
+  }
+  a:hover{
+    background-color: lightgray;
+  }
+
+  nav{
+     background-color: #b2b2b2;
+     
+
+  }
+  ul#ul-principal{
+    background-color:whitesmoke;
+    width: 38%;
+    margin: 0%;
+  
+  }
+  .li-p{
+    line-height: 30px;
+
+  }
+  ul li ul li{
+    background-color:whitesmoke;
+  }
+
+  .ul-roupas, .ul-calçados, .ul-acessórios {
+    display: none;
+
+
+  }
