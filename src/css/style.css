@@ -473,11 +473,6 @@ p.link{
   
 }
 
-.menu_index a:hover{
- background-color: rgb(202, 198, 198);
- color: whitesmoke;
-}
-
 .link_entrada a{
 text-decoration: none;
 }
@@ -611,7 +606,7 @@ h4.titulo{
   display: flex;
 }
 
-#camisa{
+#tdsitens{
   padding: 10px;
   padding-top: 30px;
   text-align: center;
@@ -810,6 +805,237 @@ form.d-flex{
   position: relative;
   width: 50%;
 }
+
+.btndetalhes{
+  cursor: pointer;  
+  transform: translateY(200%);
+  visibility: hidden;
+  transition: all 0.25s linear;
+  border: none;
+  background: rgba(100, 100, 100, 0.74);
+  color: whitesmoke;
+  font-weight: 500;
+  
+}
+
+ .quantidadevz{
+  display: block;
+  position: relative;
+ }
+
+ .informacoes{
+  display: block;
+  width: 190px;
+  height: 200px;
+  align-items: center;
+  align-content: center;
+ }
+
+ .detalhesitens {
+  width: 190px;
+  height: 50px;
+ }
+
+ .quantidadevz{
+  width: 190px;
+  height: 20px;
+ }
+ .detalhesitens:hover .btndetalhes{
+  cursor: pointer;
+  transition: all 0.35  s linear;
+  transform: translateY(60%);
+  visibility: visible;
+  color:#000000
+
+ }
+
+ .btn.btn-adicionar:hover{
+  cursor: pointer;
+  color:#000000
+ }
+
+ .imgitens{
+  cursor: pointer;
+ }
+
+.side-bar.active{
+  width: 270px;
+}
+
+.tit-categoria{
+  width: 270px;
+}
+
+.espaco{
+  width: 51px;
+}
+
+a.bio_btn{
+  display: inline-flex;
+  text-transform: uppercase;
+  font-weight: 550;
+  letter-spacing: 2px;
+  width: 390px;
+  border-left: 30px;
+  align-content: center;
+  align-items: center;
+  background: rgba(100, 100, 100, 0.74);
+}
+
+a.bio_btn:hover{
+  color:black;
+  font-family: sans-serif;
+  background: rgba(100, 100, 100, 0.74);
+}
+
+.closeBtnE1:hover{
+  font:black
+}
+ @-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    
+}
+ 
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+
 
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/

@@ -23,7 +23,7 @@
 <header class="menu-principal">  
     <main>
         <div class="logo_index">
-            <img src="img/Closetmatecinza.png" style="width:12em" floar="left">
+            <img src="img/Closetmatecinza.png" style="width:12em" floar="left" title="Closetmate, o seu closet virtual.">
         </div>
        <!-- <div class="header_1">-->
          <div class="nome_usuario">
@@ -36,7 +36,7 @@
               </form>
         </div> 
         <div class="logo_perfil">
-          <a href="perfil.html" target="_blank"><img src="img/perfil.png" style="width:5em" id="logo-perfil"></a> 
+          <a href="perfil.html" target="_blank"><img src="img/perfil.png" style="width:5em" id="logo-perfil" title="Acesse o seu perfil."></a> 
             <p class="link_perfil"> 
                 <strong><a href="login.html" Style="color: rgb(61, 60, 60); text-decoration: none;"> Sair </a></strong>
         </div>
@@ -73,58 +73,82 @@
               <div class="item">
                   <a class="sub-btn"><i class="fas fa-female"></i>Roupas<i class="fas fa-angle-right dropdown"></i></a>
                   <div class="sub-menu">
-                      <a href="index.html" class="sub-item">Camisas</a>
+                      <a href="camisas.html" class="sub-item">Camisas</a>
                       <a href="casacos.html" class="sub-item">Casacos</a>
-                      <a href="#" class="sub-item">Calças</a>
-                      <a href="#" class="sub-item">Shorts</a>
                 </div>
                 <div class="item">
                   <a class="sub-btn"><i class="fas fa-table"></i>Calçados<i class="fas fa-angle-right dropdown"></i></a>
                   <div class="sub-menu">
                     <on click iframe src="consultores.html" class="sub-item"></iframe>
-                    <a href="#" class="sub-item"></a>
-                    <a href="#" class="sub-item"></a>
+                    <a href="#" class="sub-item">Tênis casual</a>
+                    <a href="#" class="sub-item">Tênis esportivo</a>
                   </div>
                   <div class="item">
                       <a class="sub-btn"><i class="fas fa-table"></i>Acessórios<i class="fas fa-angle-right dropdown"></i></a>
                       <div class="sub-menu">
-                        <a href="#" class="sub-item"></a>
-                        <a href="#" class="sub-item"></a>
-                        <a href="#" class="sub-item"></a>
+                        <a href="#" class="sub-item">Bolsas</a>
+                        <a href="#" class="sub-item">Óculos de sol</a>
                       </div>
                 </div>  
           </nav>
         </div>
       </div>
       <div class="itens">
+        <span>
+          <div class="espaco"></div>
+        </span>
 
-          <h3>Camisas</h3>
-          <span id="camisa">
+          <h3>Casacos</h3>
+          <span id="tdsitens">
              <h6>Casaco de tricot</h6>
-             <img src="img/Casaco1.jpg">
-             <h6>02 vezes utilizada</h6>
+             <img src="img/Casaco1.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <div class="informacoes">
+              <div class="detalhesitens">
+                 <button class="btndetalhes">Detalhes</button>
+              </div>
+              <div class="quantidadevz">
+                <h6>02 vezes utilizadas</h6>
+             </div>
+            </div> 
           </span>
 
-          <span id="camisa">
+          <span id="tdsitens">
              <h6>Jaqueta preta </h6>
-             <img src="img/Casaco2.jpg">
-             <h6>0 vezes utilizada</h6>
-             <br><br><br><br><br><br>
-             <a href="itens.html"><button type="submit" class= "btn btn-adicionar">+</button></a>
+             <img src="img/Casaco2.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <div class="informacoes">
+              <div class="detalhesitens">
+                 <button class="btndetalhes">Detalhes</button>
+              </div>
+              <div class="quantidadevz">
+                <h6>0 vezes utilizada</h6>
+             </div>
+            </div> 
+             <a href="itens.html"><button type="submit" class= "btn btn-adicionar" title="Clique para adicionar itens.">+</button></a>
           </span>
 
-          <span id="camisa">
+          <span id="tdsitens">
              <h6>Jaqueta curta</h6>
-             <img src="img/Casaco3.jpg">
-             <h6>06 vezes utilizada</h6>
+             <img src="img/Casaco3.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <div class="informacoes">
+              <div class="detalhesitens">
+                 <button class="btndetalhes">Detalhes</button>
+              </div>
+              <div class="quantidadevz">
+                <h6>06 vezes utilizadas</h6>
+             </div>
+            </div> 
+          </span>
+
+          <span>
+            <div class="espaco"></div>
           </span>
 
           <span> 
-              <div class="painel-look">
+              <div class="painel-look" title="Crie seu look aqui.">
                   <div class="monte_look">
                     <h5>Crie seu look</h5>
                   </div>
-                  <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look">
+                  <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
               </div> 
           </span>
       </div>
