@@ -75,6 +75,8 @@
                   <div class="sub-menu">
                       <a href="camisas.html" class="sub-item">Camisas</a>
                       <a href="casacos.html" class="sub-item">Casacos</a>
+                     
+                      
                 </div>
                 <div class="item">
                   <a class="sub-btn"><i class="fas fa-table"></i>Calçados<i class="fas fa-angle-right dropdown"></i></a>
@@ -82,12 +84,15 @@
                     <on click iframe src="consultores.html" class="sub-item"></iframe>
                     <a href="#" class="sub-item">Tênis casual</a>
                     <a href="#" class="sub-item">Tênis esportivo</a>
+                   
+                    
                   </div>
                   <div class="item">
                       <a class="sub-btn"><i class="fas fa-table"></i>Acessórios<i class="fas fa-angle-right dropdown"></i></a>
                       <div class="sub-menu">
                         <a href="#" class="sub-item">Bolsas</a>
                         <a href="#" class="sub-item">Óculos de sol</a>
+                                      
                       </div>
                 </div>  
           </nav>
@@ -98,43 +103,43 @@
           <div class="espaco"></div>
         </span>
 
-          <h3>Casacos</h3>
+          <h3>Camisas</h3>
           <span id="tdsitens">
-             <h6>Casaco de tricot</h6>
-             <img src="img/Casaco1.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <h6>Casaco de Tricot</h6>
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Casaco1.jpg"  id="camisa1" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
              <div class="informacoes">
-              <div class="detalhesitens">
-                 <button class="btndetalhes">Detalhes</button>
-              </div>
-              <div class="quantidadevz">
-                <h6>02 vezes utilizadas</h6>
-             </div>
-            </div> 
+                <div class="detalhesitens">
+                   <button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button>
+                </div>
+                <div class="quantidadevz">
+                  <h6>02 vezes utilizadas</h6>
+               </div>
+              </div> 
           </span>
 
           <span id="tdsitens">
-             <h6>Jaqueta preta </h6>
-             <img src="img/Casaco2.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <h6>Jaqueta Preta</h6>
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Casaco2.jpg" id="camisa2" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
              <div class="informacoes">
               <div class="detalhesitens">
-                 <button class="btndetalhes">Detalhes</button>
+                 <button class="btndetalhes"  title="Clique para detalhes do item.">Detalhes</button>
               </div>
               <div class="quantidadevz">
                 <h6>0 vezes utilizada</h6>
              </div>
             </div> 
-             <a href="itens.html"><button type="submit" class= "btn btn-adicionar" title="Clique para adicionar itens.">+</button></a>
+             <a href="itens.html"><button type="submit" class= "btn btn-adicionar" title="Clique para adicionar novos itens.">+</button></a>
           </span>
 
           <span id="tdsitens">
-             <h6>Jaqueta curta</h6>
-             <img src="img/Casaco3.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <h6>Jaqueta Jeans Clara</h6>
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Casaco3.jpg" id="camisa3" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
              <div class="informacoes">
               <div class="detalhesitens">
-                 <button class="btndetalhes">Detalhes</button>
+                 <button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button>
               </div>
               <div class="quantidadevz">
-                <h6>06 vezes utilizadas</h6>
+                <h6>06 vezes utilizada</h6>
              </div>
             </div> 
           </span>
@@ -144,9 +149,16 @@
           </span>
 
           <span> 
+            
               <div class="painel-look" title="Crie seu look aqui.">
+                <div class="tit"><h5>Crie seu look</h5></div>
                   <div class="monte_look">
-                    <h5>Crie seu look</h5>
+                    <div class=dropzone id="carrinho1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+                    <div class=dropzone id="carrinho2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+                  </div>
+                  <div class="monte_look2"> 
+                    <div class=dropzone id="carrinho3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+                    <div class=dropzone id="carrinho4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
                   </div>
                   <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
               </div> 
@@ -157,6 +169,7 @@
         function funcao1()
         {
         alert("Look salvo com sucesso!");
+        window.location="seuslooks.html";
         }
         </script>
         
@@ -181,14 +194,12 @@
 
         });
     </script>
-    
+     
    
        
     
     <!-- JS Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
-    <!--Java Script-->
-  <script type="text/javascript" src="exemplo.js" ></script>  
    <!-- JS do Projeto -->
    <script src="js/script.js"></script>
 

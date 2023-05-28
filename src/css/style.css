@@ -621,10 +621,10 @@ width: 100px;
 }
 
 .painel-look{
-  width: 380px; /* pega 55% da div que ele está */
-  height: 500px;
+  width: 410px; /* pega 55% da div que ele está */
+  height: 590px;
   display: flex; /* permite alterar a posição dos itens */
-  align-items: center; /* centraliza no eixo y */
+   /* centraliza no eixo y */
   flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
   border-radius: 3px;
   background: whitesmoke;
@@ -639,6 +639,7 @@ width: 100px;
   display: flex;
   position: relative;
   border-top: 0px;
+
 }
 
 .monte-look h5{
@@ -646,7 +647,7 @@ width: 100px;
 }
 
 input.btn.btn-salvar {
-  position: relative;
+  position: absolute;
   background: rgba(100, 100, 100, 0.74);
   width: 200px;
   height: 55px;
@@ -659,9 +660,10 @@ input.btn.btn-salvar {
   text-transform: uppercase;
   justify-content: center;
   text-align: center;
-  margin-top: 470px;
+  margin-top: 590px;
   text-decoration: none;
   outline: none;
+  margin-left: 95px;
 }
 
 input.btn.btn-salvar:hover{
@@ -891,6 +893,20 @@ a.bio_btn:hover{
 .closeBtnE1:hover{
   font:black
 }
+
+.tit{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width:380px;
+}
+
+.fundo{
+  width: 190px;
+  height: 260px;
+}
+
  @-webkit-keyframes swing
 {
     15%
@@ -1035,6 +1051,46 @@ a.bio_btn:hover{
         animation-iteration-count: 1;
 }
 
+.monte_look{
+  display: flex;
+  height: 460px;
+  border-right: 5px;
+}
+
+.monte_look2{
+  display: flex;
+  height: 460px;
+  border-left: 100px;
+}
+
+#carrinho1.dropzone{
+  position: static;
+  width: 170px;
+  height: 180px;
+}
+#carrinho2.dropzone{
+  width: 170px;
+  height: 180px;
+  transform: translateX(30px);
+}
+#carrinho3.dropzone{
+  width: 170px;
+  height: 180px;
+ 
+}
+#carrinho4.dropzone{
+  width: 170px;
+  height: 180px;
+  border-left: 5px;
+  transform: translateX(30px);
+}
+
+/*.dropzone{
+  justify-content: center;
+  text-align: center;
+  width:190px;
+  height: 220px;
+}*/
 
 
 

@@ -106,7 +106,7 @@
           <h3>Camisas</h3>
           <span id="tdsitens">
              <h6>Camisa Listrada</h6>
-             <img src="img/Camisa1.jpg" id="camisa1" class="swing imgitens" title="Clique para detalhes do item.">
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Camisa1.jpg"  id="camisa1" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
              <div class="informacoes">
                 <div class="detalhesitens">
                    <button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button>
@@ -119,10 +119,10 @@
 
           <span id="tdsitens">
              <h6>Camisa Slim Branca</h6>
-             <img src="img/Camisa2.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Camisa2.jpg" id="camisa2" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
              <div class="informacoes">
               <div class="detalhesitens">
-                 <button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button>
+                 <button class="btndetalhes"  title="Clique para detalhes do item.">Detalhes</button>
               </div>
               <div class="quantidadevz">
                 <h6>01 vezes utilizada</h6>
@@ -133,7 +133,7 @@
 
           <span id="tdsitens">
              <h6>Camisa Branca Regata</h6>
-             <img src="img/Camisa 3.3.jpg" class="swing imgitens" title="Clique para detalhes do item.">
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Camisa 3.3.jpg" id="camisa3" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
              <div class="informacoes">
               <div class="detalhesitens">
                  <button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button>
@@ -151,8 +151,14 @@
           <span> 
             
               <div class="painel-look" title="Crie seu look aqui.">
+                <div class="tit"><h5>Crie seu look</h5></div>
                   <div class="monte_look">
-                    <h5>Crie seu look</h5>
+                    <div class=dropzone id="carrinho1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+                    <div class=dropzone id="carrinho2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+                  </div>
+                  <div class="monte_look2"> 
+                    <div class=dropzone id="carrinho3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+                    <div class=dropzone id="carrinho4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
                   </div>
                   <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
               </div> 
@@ -163,6 +169,7 @@
         function funcao1()
         {
         alert("Look salvo com sucesso!");
+        window.location="seuslooks.html";
         }
         </script>
         
@@ -193,8 +200,6 @@
     
     <!-- JS Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
-    <!--Java Script-->
-  <script type="text/javascript" src="exemplo.js" ></script>  
    <!-- JS do Projeto -->
    <script src="js/script.js"></script>
 
