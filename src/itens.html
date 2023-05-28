@@ -14,66 +14,80 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-    <body>
-      <div class="conteudo">
-        <div id="cadastro">
+    <body> 
+      <div class="conteudo-itens">
+        <div class="espaco-itens"></div>
+        <div class="imagem-itens">
+            <div class="espaco2-itens">
+            <br><br><br><br><br><br><br>  
+            </div>
+            <label class="picture" for="picture__input" tabIndex="0">
+            <span class="picture__image">Selecione a imagem</span>
+          </label>
+          
+          <input type="file" name="picture__input" id="picture__input">
+        </div>
+
+        <div id="cadastro-itens">
             <form method="post" action=""> 
-              <div>
-              <img src="img/Closetmatesfundo.png" class="closetimagemcad" alt="Closetmate">
+              <div id="imagem-sub">
+              <img src="img/Closetmatesfundo.png" class="closetimagemcad" alt="Closetmate" style="width:200px">
+              <strong><div class="subtitulo_caditens" h5 >Adicionar itens no Closetmate</div></h5></strong>
               </div>
-              <div class="subtitulo_cad" h6 >Preencha os dados abaixo para a criação do seu cadastro:</div></h6> 
+              
+              <br> 
               <p> 
-                <label style="font-weight: 600" for="nome_cad">Seu nome:</label>
-                <input style ="width:95%" id="nome_cad" name="nome_cad" type="text" placeholder="nome" required="required"/>
+                <strong><label style="font-weight: 600" for="nome_cad">Nome do item:</label></strong>
+                <input style ="width:60%" id="nome_caditens" name="nome_caditens" type="text">
               </p>
                
               <p> 
-                <label style="font-weight: 600" for="tel_cad">Seu telefone:</label>
-                <input style ="width:95%" id="tel_cad" name="tel_cad" type="tel" placeholder="(00) 0 0000-0000" />
+                <strong><label style="font-weight: 600" for="marca_caditens">Marca:</label></strong>
+                <input style ="width:60%" id="marca_caditens" name="marca_caditens" type="text">
 
               <p> 
-                <label style="font-weight: 600" for="email_cad">Seu email:</label>
-                <input style ="width:95%" id="email_cad" name="email_cad" type="email" placeholder="contato@closetmate.com"/> 
+                <strong></strong><label style="font-weight: 600" for="categoria_caditens">Categoria:</label></p></strong>
+                <select class="opcoes-itens" name="opcoes-itens" style="width:60%">
+                  <option disabled="disabled" selected="selected">Selecione a opção</option>
+                  <option>Camisetas</option>
+                  <option>Calças</option>
+                  <option>Shorts</option>
+                  <option>Vestidos</option>
+                  <option>Suéters</option>
+                  <option>Moletons</option>
+                  <option>Leggings</option>
+                  <option>Tênis casual</option>
+                  <option>Tênis esportivo</option>
+                  <option>Sapatos</option>
+                  <option>Chinelos</option>
+                  <option>Rasteirinhas</option>
+                  <option>Botas</option>
+                  <option>Coturnos</option>
+                  <option>Boné</option>
+                  <option>Chapéu</option>
+                  <option>Óculos de sol</option>
+                  <option>Touca</option>
+                  <option>Cachecol</option>
+                  <option>Gravata</option>
+                  <option>Cinto</option>
+                  <option>Bolsasr</option>
+              </select> 
               </p>
                
               <p> 
-                <label style="font-weight: 600" for="conf_email_cad">Confirme o email:</label>
-                <input style ="width:95%" id="conf_email_cad" name="conf_email_cad" type="email" placeholder="contato@closetmate.com"/>
+                <strong><label style="font-weight: 600" for="desc_itens">Descrição extra:</label></strong>
+                <input id="desc-itens" name="desc-itens" type="text">
               </p>
-
-              <p> 
-                <label style="font-weight: 600" for="senha_cad">Sua senha:</label>
-                <input style ="width:95%" id="senha_cad" name="senha_cad" type="password" placeholder="ex. Ca1234"/>
-              </p>
-
-              <p> 
-                <label style="font-weight: 600" for="senha_cad">Confirme a senha:</label>
-                <input style ="width:95%" id="conf_senha_cad" name="conf_senha_cad" type="password" placeholder="ex. Ca1234"/>
-              </p>
-
-              <div class="row">
-                <label style="font-weight: 600" for="Sexo_cad">Selecione o sexo:</label>
-                <select class="opcoes" name="assunto">
-                    <option disabled="disabled" selected="selected">Selecione a opção</option>
-                    <option>Feminino</option>
-                    <option>Masculino</option>
-                    <option>Prefiro não dizer</option>
-                </select>
+              <div class="row">     
               </div> 
             </form>
             <div class="link_cadastro">
-              <a href="index.html"><button type="submit" class= "btn btn-cadastro" style="text-decoration:none">Cadastrar</button></a>
+              <a href=""><button type="submit" class= "btn btn-cadastro" style="text-decoration:none">Cadastrar</button></a>
             </div>
-            <p class="link">  
-              Já tem conta?
-              <a href="login.html"> Ir para Login </a>
-            </p>
-          </div>
         </div>
-      </div>  
-    </div> 
-    
-    
+      </div>
+
+      
       <!-- JS Bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
       <!-- JS do Projeto -->
