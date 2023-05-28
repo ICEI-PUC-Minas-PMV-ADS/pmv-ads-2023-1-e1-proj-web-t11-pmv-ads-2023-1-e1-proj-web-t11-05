@@ -76,11 +76,11 @@ body*{
   width: 50%;
   display: flex;
   justify-content: center;
-  outline: none;
+  outline: nono;
 }
 
 .main-cadastro{
-  background: lightgrey; 
+  background:lightgray; 
   width: 100vw; 
 }
 
@@ -278,7 +278,7 @@ p.link{
   }
 
   input[type="submit"]:hover{
-  color: black;
+  color: rgb(0, 0, 0);
   }
 
 /*.cadastro > input:not([type="checkbox"]){
@@ -315,11 +315,11 @@ p.link{
 
   button.btn.btn-cadastro{
     position: relative;
-    background: rgba(100, 100, 100, 0.74);
+    background: rgba(122, 122, 122, 0.74);
     width: 506px;
     height: 55px;
     border: none;
-    color: white;
+    color: rgb(7, 7, 7);
     font-weight: 600; /* Engrossa a letra */
     letter-spacing: 3px; /* Espassamento entre as letras */
     cursor: pointer; /* Muda o cursor ao passar em cima */
@@ -331,6 +331,7 @@ p.link{
     margin-left: 8px;
     text-decoration: none;
   }
+  
 
   button.btn.btn-cadastro:hover{
     color: black;
@@ -432,10 +433,35 @@ p.link{
  }
 
  form.d-flex{
+  background-color: #999999;
   margin-top: 3em;
   margin-left: 9em;
   margin-right: 7em;
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
  }
+ form.d-flex button[type="submit"] {
+  border-radius: 6px;
+  margin-left: 10px;
+  margin-right: 0px; /* adiciona margem à esquerda e remove margem à direita */
+  font-weight: 600;
+  border: 1px solid;/* adiciona borda no botão de pesquisa*/
+}
+
+
+ .btn-outline-success,.btn-outline-success:active {
+  background-color: #9c9c9c; /* altere aqui a cor de fundo quando o botão é clicado */
+  border-color: #0a0a0a; /* altere aqui a cor da borda quando o botão é clicado */
+  color: #050505; /* altere aqui a cor do texto dentro do botão quando ele é clicado */
+}
+
+.btn-outline-success:hover {
+background-color: rgb(122, 122, 122); /* altere aqui a cor de fundo quando o mouse é passado sobre o botão */
+border-color: #adadad;
+}
 
  p.link_index{
   margin-left: 08px;
@@ -460,7 +486,7 @@ p.link{
 
 .menu_index li{
   list-style: none;
-  margin-right: 3em;
+  margin-right: 4em;
   }
 
 .menu_index a{
@@ -482,7 +508,7 @@ nav{
   background-color: lightgrey;
   height: 100%;
 }
-
+/* start menu lateral*/
 .tit-categoria{
   display: flex;
   position: relative;
@@ -584,14 +610,15 @@ h4.titulo{
 
 .close-btn{
   position: absolute;
-  color: rgb(218, 56, 56);
+  color: rgb(122, 122, 122);
   font-size: 20px;
   right: 0;
   margin: 25px;
   cursor: pointer;
+
   visibility: hidden;
 }
-
+     
 .menu-btn{
   position: absolute;
   color: #fff;
@@ -1127,7 +1154,7 @@ a.bio_btn:hover{
 
     }
   }
-
+/* Fim menu lateral*/
   
 
   
