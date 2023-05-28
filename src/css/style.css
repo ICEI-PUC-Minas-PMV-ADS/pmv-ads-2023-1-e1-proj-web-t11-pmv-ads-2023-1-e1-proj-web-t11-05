@@ -522,14 +522,15 @@ nav{
 h4.titulo{
   display: block;
   position: relative;
-  margin-top: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-right: 3em;
   font-weight: 650;
 }
 
 .barra-lateral{
   width: 250px;
-  margin-top: 0px;
+  margin-top: 15px;
   flex-direction: column;
   float: left;
 }
@@ -548,6 +549,7 @@ h4.titulo{
 }
 
 .side-bar.active{
+  margin-top: 2px;
   width: 250px;
   display: flex;
   position: relative;
@@ -574,6 +576,7 @@ h4.titulo{
   padding: 5px 30px;
   line-height: 60px;
   font-weight: 500;
+  border-bottom: 2px solid #a3a0a0;
 }
 
 .side-bar .menu .item a:hover{
