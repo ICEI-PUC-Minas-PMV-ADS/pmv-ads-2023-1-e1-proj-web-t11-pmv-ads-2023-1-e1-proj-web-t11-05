@@ -76,11 +76,11 @@ body*{
   width: 50%;
   display: flex;
   justify-content: center;
-  outline: none;
+  outline: nono;
 }
 
 .main-cadastro{
-  background: lightgrey; 
+  background:lightgray; 
   width: 100vw; 
 }
 
@@ -278,7 +278,7 @@ p.link{
   }
 
   input[type="submit"]:hover{
-  color: black;
+  color: rgb(0, 0, 0);
   }
 
 /*.cadastro > input:not([type="checkbox"]){
@@ -315,11 +315,11 @@ p.link{
 
   button.btn.btn-cadastro{
     position: relative;
-    background: rgba(100, 100, 100, 0.74);
+    background: rgba(122, 122, 122, 0.74);
     width: 506px;
     height: 55px;
     border: none;
-    color: white;
+    color: rgb(7, 7, 7);
     font-weight: 600; /* Engrossa a letra */
     letter-spacing: 3px; /* Espassamento entre as letras */
     cursor: pointer; /* Muda o cursor ao passar em cima */
@@ -331,6 +331,7 @@ p.link{
     margin-left: 8px;
     text-decoration: none;
   }
+  
 
   button.btn.btn-cadastro:hover{
     color: black;
@@ -435,7 +436,31 @@ p.link{
   margin-top: 3em;
   margin-left: 9em;
   margin-right: 7em;
+  border: 1px solid rgb(143, 143, 143);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
  }
+ form.d-flex button[type="submit"] {
+  border-radius: 6px;
+  margin-left: 0px;
+  margin-right: 0px; /* adiciona margem à esquerda e remove margem à direita */
+  font-weight: 600;
+  border: 1px solid;/* adiciona borda no botão de pesquisa*/
+}
+
+
+ .btn-outline-success,.btn-outline-success:active {
+  background-color: #9c9c9c; /* altere aqui a cor de fundo quando o botão é clicado */
+  border-color: #0a0a0a; /* altere aqui a cor da borda quando o botão é clicado */
+  color: #050505; /* altere aqui a cor do texto dentro do botão quando ele é clicado */
+}
+
+.btn-outline-success:hover {
+background-color: rgb(122, 122, 122); /* altere aqui a cor de fundo quando o mouse é passado sobre o botão */
+border-color: #adadad;
+}
 
  p.link_index{
   margin-left: 08px;
@@ -460,7 +485,7 @@ p.link{
 
 .menu_index li{
   list-style: none;
-  margin-right: 3em;
+  margin-right: 4em;
   }
 
 .menu_index a{
@@ -473,11 +498,6 @@ p.link{
   
 }
 
-.menu_index a:hover{
- background-color: rgb(202, 198, 198);
- color: whitesmoke;
-}
-
 .link_entrada a{
 text-decoration: none;
 }
@@ -487,7 +507,7 @@ nav{
   background-color: lightgrey;
   height: 100%;
 }
-
+/* start menu lateral*/
 .tit-categoria{
   display: flex;
   position: relative;
@@ -500,6 +520,7 @@ nav{
 }
 
 h4.titulo{
+  display: block;
   position: relative;
   margin-top: 8px;
   margin-right: 3em;
@@ -588,14 +609,15 @@ h4.titulo{
 
 .close-btn{
   position: absolute;
-  color: rgb(218, 56, 56);
+  color: rgb(122, 122, 122);
   font-size: 20px;
   right: 0;
   margin: 25px;
   cursor: pointer;
+
   visibility: hidden;
 }
-
+     
 .menu-btn{
   position: absolute;
   color: #fff;
@@ -611,7 +633,7 @@ h4.titulo{
   display: flex;
 }
 
-#camisa{
+#tdsitens{
   padding: 10px;
   padding-top: 30px;
   text-align: center;
@@ -626,10 +648,10 @@ width: 100px;
 }
 
 .painel-look{
-  width: 380px; /* pega 55% da div que ele está */
-  height: 500px;
+  width: 410px; /* pega 55% da div que ele está */
+  height: 590px;
   display: flex; /* permite alterar a posição dos itens */
-  align-items: center; /* centraliza no eixo y */
+   /* centraliza no eixo y */
   flex-direction: column; /* permite que mesmo com o comando flex que põe um ao lado do outro nós tenhamos um elemento sobre o outro */ 
   border-radius: 3px;
   background: whitesmoke;
@@ -644,6 +666,7 @@ width: 100px;
   display: flex;
   position: relative;
   border-top: 0px;
+
 }
 
 .monte-look h5{
@@ -651,7 +674,7 @@ width: 100px;
 }
 
 input.btn.btn-salvar {
-  position: relative;
+  position: absolute;
   background: rgba(100, 100, 100, 0.74);
   width: 200px;
   height: 55px;
@@ -664,9 +687,10 @@ input.btn.btn-salvar {
   text-transform: uppercase;
   justify-content: center;
   text-align: center;
-  margin-top: 470px;
+  margin-top: 590px;
   text-decoration: none;
   outline: none;
+  margin-left: 95px;
 }
 
 input.btn.btn-salvar:hover{
@@ -812,6 +836,291 @@ form.d-flex{
   width: 50%;
 }
 
+.btndetalhes{
+  cursor: pointer;  
+  transform: translateY(200%);
+  visibility: hidden;
+  transition: all 0.25s linear;
+  border: none;
+  background: rgba(100, 100, 100, 0.74);
+  color: whitesmoke;
+  font-weight: 500;
+  
+}
+
+ .quantidadevz{
+  display: block;
+  position: relative;
+ }
+
+ .informacoes{
+  display: block;
+  width: 190px;
+  height: 200px;
+  align-items: center;
+  align-content: center;
+ }
+
+ .detalhesitens {
+  width: 190px;
+  height: 50px;
+ }
+
+ .quantidadevz{
+  width: 190px;
+  height: 20px;
+ }
+ .detalhesitens:hover .btndetalhes{
+  cursor: pointer;
+  transition: all 0.35  s linear;
+  transform: translateY(60%);
+  visibility: visible;
+  color:#000000
+
+ }
+
+ .btn.btn-adicionar:hover{
+  cursor: pointer;
+  color:#000000
+ }
+
+ .imgitens{
+  cursor: pointer;
+ }
+
+.side-bar.active{
+  width: 270px;
+}
+
+.tit-categoria{
+  width: 270px;
+}
+
+.espaco{
+  width: 51px;
+}
+
+a.bio_btn{
+  display: inline-flex;
+  text-transform: uppercase;
+  font-weight: 550;
+  letter-spacing: 2px;
+  width: 390px;
+  border-left: 30px;
+  align-content: center;
+  align-items: center;
+  background: rgba(100, 100, 100, 0.74);
+}
+
+a.bio_btn:hover{
+  color:black;
+  font-family: sans-serif;
+  background: rgba(100, 100, 100, 0.74);
+}
+
+.closeBtnE1:hover{
+  font:black
+}
+
+.tit{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width:380px;
+}
+
+.fundo{
+  width: 190px;
+  height: 260px;
+}
+
+ @-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    
+}
+ 
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.swing:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+.monte_look{
+  display: flex;
+  height: 460px;
+  border-right: 5px;
+}
+
+.monte_look2{
+  display: flex;
+  height: 460px;
+  border-left: 100px;
+}
+
+#carrinho1.dropzone{
+  position: static;
+  width: 170px;
+  height: 180px;
+}
+#carrinho2.dropzone{
+  width: 170px;
+  height: 180px;
+  transform: translateX(30px);
+}
+#carrinho3.dropzone{
+  width: 170px;
+  height: 180px;
+ 
+}
+#carrinho4.dropzone{
+  width: 170px;
+  height: 180px;
+  border-left: 5px;
+  transform: translateX(30px);
+}
+
+/*.dropzone{
+  justify-content: center;
+  text-align: center;
+  width:190px;
+  height: 220px;
+}*/
+
+
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
@@ -845,7 +1154,7 @@ form.d-flex{
 
     }
   }
-
+/* Fim menu lateral*/
   
 
   
