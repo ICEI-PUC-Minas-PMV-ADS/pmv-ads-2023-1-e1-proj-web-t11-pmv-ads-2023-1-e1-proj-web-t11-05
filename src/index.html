@@ -64,11 +64,6 @@
           <nav>
             <div class="menu-btn">
               <i class="fas fa-bars"></i>
-          </div>
-          <div class="side-bar active">
-            <div class="close-btn"></div>
-            <!--close-->
-              <i class="fas fa-times"></i>
             </div>
             <div class="side-bar active">
               <div class="close-btn">
@@ -196,12 +191,10 @@
             $('.menu-btn').css("visibility", "hidden");
           });
 
-            $('.close-btn').click(function(){
+          $('.close-btn').click(function(){
             $('.side-bar').removeClass('active');
             $('.menu-btn').css("visibility", "visible");
           });
-
-         
 
         });
     </script>

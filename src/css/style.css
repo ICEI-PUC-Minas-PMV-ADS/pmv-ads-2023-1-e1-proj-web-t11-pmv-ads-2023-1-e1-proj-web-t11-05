@@ -76,7 +76,7 @@ body*{
   width: 50%;
   display: flex;
   justify-content: center;
-  outline: nono;
+  outline: none;
 }
 
 .main-cadastro{
@@ -433,7 +433,6 @@ p.link{
  }
 
  form.d-flex{
-  background-color: #999999;
   margin-top: 3em;
   margin-left: 9em;
   margin-right: 7em;
@@ -441,11 +440,12 @@ p.link{
   border-radius: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+  border: none;
+  outline: none;
 
  }
  form.d-flex button[type="submit"] {
   border-radius: 6px;
-  margin-left: 10px;
   margin-right: 0px; /* adiciona margem à esquerda e remove margem à direita */
   font-weight: 600;
   border: 1px solid;/* adiciona borda no botão de pesquisa*/
@@ -505,8 +505,8 @@ text-decoration: none;
 
 nav{
   width: 250px;
-  background-color: lightgrey;
   height: 100%;
+  background-color: lightgrey;
 }
 /* start menu lateral*/
 .tit-categoria{
@@ -546,6 +546,7 @@ h4.titulo{
   overflow-y: auto;
   transition: 0.6s ease;
   transition-property: left;
+  position: relative;
 }
 
 .side-bar.active{
@@ -553,6 +554,7 @@ h4.titulo{
   display: flex;
   position: relative;
   left: 0;
+
 }
 
 .side-bar .menu{
@@ -615,7 +617,6 @@ h4.titulo{
   right: 0;
   margin: 25px;
   cursor: pointer;
-
   visibility: hidden;
 }
      
@@ -732,11 +733,6 @@ button.btn.btn-pesquisar{
 
 button.btn.btn-pesquisar:hover{
   color: white;
-}
-
-form.d-flex{
-  border: none;
-  outline: none;
 }
 
 #desc-itens{
