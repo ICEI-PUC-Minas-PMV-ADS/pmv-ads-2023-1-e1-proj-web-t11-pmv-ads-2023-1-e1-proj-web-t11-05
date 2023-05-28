@@ -433,7 +433,6 @@ p.link{
  }
 
  form.d-flex{
-  background-color: #999999;
   margin-top: 3em;
   margin-left: 9em;
   margin-right: 7em;
@@ -445,7 +444,7 @@ p.link{
  }
  form.d-flex button[type="submit"] {
   border-radius: 6px;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 0px; /* adiciona margem à esquerda e remove margem à direita */
   font-weight: 600;
   border: 1px solid;/* adiciona borda no botão de pesquisa*/
