@@ -54,6 +54,8 @@ Divisão de Papéis no Projeto:
    - Gabriel Batista Vieira
 
  - Equipe de Desenvolvimento: 
+   - Gabriel Batista Vieira
+   - Diego de Paula Salgado  
    - Victor Lúcio De Menezes Souto
  
  - Equipe de Design: 
