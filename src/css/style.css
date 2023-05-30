@@ -1,3 +1,6 @@
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
 body{
   margin: 0;
   background: lightgray;
@@ -661,7 +664,7 @@ width: 100px;
   box-shadow: 0 10px 30px #46454585; /* sombra */
   border-top: 2em;
   position: absolute;
-  margin-left: 1000px;
+  margin-left: 980px;
   margin-top: -600px;
  
 }
@@ -721,7 +724,7 @@ button.btn.btn-adicionar{
 }
 
 ul.menu_index{
-  width: 100%;
+  width: 1410px;
 }
 
 .hidden{
@@ -853,6 +856,15 @@ button.btn.btn-pesquisar:hover{
   position: relative;
  }
 
+ .quantidadevz a {
+  color: rgba(29, 28, 28, 0.74);
+  font-weight: 600;
+ }
+
+ .quantidadevz a:hover{
+  color:black;
+ }
+
  .informacoes{
   display: block;
   width: 190px;
@@ -897,7 +909,7 @@ button.btn.btn-pesquisar:hover{
 }
 
 .espaco{
-  width: 51px;
+  width: 40px;
 }
 
 a.bio_btn{
@@ -1127,18 +1139,22 @@ a.bio_btn:hover{
   width: 690px;
   height: 597.19px;
   margin-top: 0px;
-  margin-left: 51px
+  margin-left: 40px
 }
 
 h3.tit-itens2{
   display: flex;
-  margin-left: -31px;
+  margin-left: -20px;
 }
 
 .menu_index li:hover{
   background: rgba(100, 100, 100, 0.74);
 }
 
+.whats{
+  width: 30px;
+  height: 30px;
+}
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
@@ -1173,6 +1189,150 @@ h3.tit-itens2{
     }
   }
 /* Fim menu lateral*/
+
+@-webkit-keyframes whats
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes whats
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    
+}
+ 
+@-webkit-keyframes whats
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes whats
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.whats:hover
+{
+        -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
   
 
   
