@@ -4,7 +4,7 @@
             '<span></span>' +
             '<span></span>' +
             '<span></span>' +
-            '<a href="consultores.html" target="_blank" class="bio_btn">&nbsp &nbspEscolha um  consultor &nbsp; <i class="fa fa-instagram"></i></a>' + 
+            '<a href="consultores.html" target="_blank" class="bio_btn">&nbsp &nbspEscolha um  consultor &nbsp; <i class="fa fainstagram"></i></a>' + 
             '</div>',
             css: '#bio_ep {width: 700px; height: 500px; color: #333; background-color: #fafafa; text-align: center;background-image: url(pop-up/imagens-pop/);background-size: cover;}' +
             '#bio_ep_content {padding: 400px 0 0 0; font-family: inherit;}' +
