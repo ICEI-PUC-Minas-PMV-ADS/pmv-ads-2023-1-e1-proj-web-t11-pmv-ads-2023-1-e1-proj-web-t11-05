@@ -1135,6 +1135,10 @@ h3.tit-itens2{
   margin-left: -31px;
 }
 
+.menu_index li:hover{
+  background: rgba(100, 100, 100, 0.74);
+}
+
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
     .painel-login {
