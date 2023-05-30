@@ -44,3 +44,23 @@ function dragDrop (acao){
   var produtoSelecionado = acao.dataTransfer.getData("ID");
   acao.target.appendChild(document.getElementById(produtoSelecionado));
 }
+
+function load_page(x, y) {
+  var indice = x
+  var target = y
+  var url = './../src/' + indice + '.html'
+
+  var xml = new XMLHttpRequest()
+
+  xml.onreadystatechange = function () {
+      if (xml.readyState == 4 && xml.status == 200) {
+          document.getElementById(target).innerHTML = xml.responseText
+      }
+  }
+
+  xml.open("GET", url, true)
+
+  xml.send()
+}
+
+   

@@ -49,11 +49,11 @@
         </li>
 
         <li>
-            <a href="consultores.html" target="_blank">Consultores</a>
+            <a href="consultores.html">Consultores</a>
         </li>
 
         <li>
-           <a href="seuslooks.html" target="_blank">Seus Looks</a>
+           <a href="seuslooks.html">Seus Looks</a>
         </li>
      </ul>
 
@@ -73,8 +73,8 @@
               <div class="item">
                 <a class="sub-btn"><i class="fas fa-tshirt"></i>Roupas<i class="fas fa-angle-right dropdown"></i></a>
                 <div class="sub-menu">
-                      <a href="camisas.html" class="sub-item">Camisas</a>
-                      <a href="casacos.html" class="sub-item">Casacos</a>
+                      <a onclick="load_page('camisas','conteudo')" class="sub-item">Camisas</a>
+                      <a onclick="load_page('casacos','conteudo')" class="sub-item">Casacos</a>
                      
                 </div>
                 <div class="item">
@@ -96,7 +96,7 @@
           </nav>
         </div>
       </div>
-      <div class="itens">
+      <div class="itens" id="conteudo">
         <span>
           <div class="espaco"></div>
         </span>
@@ -145,24 +145,21 @@
           <span>
             <div class="espaco"></div>
           </span>
-
-          <span> 
-            
-              <div class="painel-look" title="Crie seu look aqui.">
-                <div class="tit"><h5>Crie seu look</h5></div>
-                  <div class="monte_look">
-                    <div class=dropzone id="carrinho1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
-                    <div class=dropzone id="carrinho2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
-                  </div>
-                  <div class="monte_look2"> 
-                    <div class=dropzone id="carrinho3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
-                    <div class=dropzone id="carrinho4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
-                  </div>
-                  <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
-              </div> 
-          </span>
       </div>
-
+                
+        <div class="painel-look" title="Crie seu look aqui.">
+          <div class="tit"><h5>Crie seu look</h5></div>
+            <div class="monte_look">
+              <div class=dropzone id="carrinho1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+              <div class=dropzone id="carrinho2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+            </div>
+            <div class="monte_look2"> 
+              <div class=dropzone id="carrinho3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+              <div class=dropzone id="carrinho4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+            </div>
+            <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
+        </div> 
+  
         <!-- MODAL -->
         <script type="text/javascript" src="pop-up/js/bioep.min.js"></script>
         <script type="text/javascript" src="pop-up/js/editar.js"></script>

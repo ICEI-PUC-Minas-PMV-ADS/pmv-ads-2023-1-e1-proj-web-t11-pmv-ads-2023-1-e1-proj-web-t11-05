@@ -660,6 +660,10 @@ width: 100px;
   padding: 10px 10px;
   box-shadow: 0 10px 30px #46454585; /* sombra */
   border-top: 2em;
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: -600px;
+ 
 }
 
 .monte-look{
@@ -1116,6 +1120,20 @@ a.bio_btn:hover{
   height: 220px;
 }*/
 
+.itens2{
+  display: flex;
+  top: 0px;
+  left: 0px;
+  width: 690px;
+  height: 597.19px;
+  margin-top: 0px;
+  margin-left: 51px
+}
+
+h3.tit-itens2{
+  display: flex;
+  margin-left: -31px;
+}
 
 
   @media only screen and (max-width:950px){ /* para dispositivos com telas menores que 950px*/
