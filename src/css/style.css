@@ -1333,6 +1333,47 @@ h3.tit-itens2{
         -webkit-animation-iteration-count: 1;
         animation-iteration-count: 1;
 }
+
+#det-itens{
+  margin-top: 52px;
+}
+
+#desc-det-itens{
+  width:400px;
+  height: 120px;
+}
+
+#txt-detitens::placeholder{
+  color:black;
+}
+
+#desc-det-itens::placeholder{
+  color:black;
+}
+
+.btn-det{
+  border:none;
+  color:whitesmoke;
+  font-weight: 550;
+  background: rgba(100, 100, 100, 0.74);
+  border-radius: 3px;
+} 
+
+.btn-det:hover{
+  color:#000000
+}
+
+.looks{
+  width: 100vh;
+  display: flex;
+}
+
+#plook{
+  margin-top: 3em;
+  margin-left: 6em;
+  margin-right: 3em;
+}
+
   
 
   
