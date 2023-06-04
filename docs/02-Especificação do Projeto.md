@@ -29,7 +29,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-![Requisitos Funcionais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/67d33ec2-8fec-488c-818f-20655049159b)
+![Requisitos Funcionais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/611893db-0e06-4640-8671-a15b16fbf6e5)
 
 ### Requisitos não Funcionais
 
