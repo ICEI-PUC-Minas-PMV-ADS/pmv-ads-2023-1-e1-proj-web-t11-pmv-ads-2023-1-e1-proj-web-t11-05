@@ -1,7 +1,7 @@
       bioEp.init({
             html: '<div id="bio_ep_content"> ' +
             
-            '<span class="pop-up"><h4 id="pop-up">Olá! Parece que você ainda não contratou um consultor para ajudar com a organização do seu closet. <br> <br> Recomendamos escolher um dos nossos Personal Organizers para proporcionar uma experiência única, personalizada e completa com o seu Closetmate. <br> No entanto, se você achar que ainda não é o momento certo, fique à vontade para continuar gerenciando o seu closet <br> da sua forma. <br><br> Estamos aqui para ajudar quando você precisar.<h4></span>' +
+            '<span class="pop-up"><h5 id="pop-up">Olá! Parece que você ainda não contratou um consultor para ajudar com a organização do seu closet. <br> <br> Recomendamos escolher um dos nossos Personal Organizers para proporcionar uma experiência única, personalizada e completa com o seu Closetmate. <br> No entanto, se você achar que ainda não é o momento certo, fique à vontade para continuar gerenciando o seu closet <br> da sua forma. <br><br> Estamos aqui para ajudar quando você precisar.<h5></span>' +
             '<span class="img-popup"><img src ="img/magua.png"></span>' +
             '<span></span>' +
             '<a href="consultores.html" target="_blank" class="bio_btn">&nbsp &nbspEscolha um  consultor &nbsp; <i class="fa fainstagram"></i></a>' + 
