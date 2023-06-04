@@ -1,13 +1,13 @@
       bioEp.init({
-            html: '<div id="bio_ep_content">' +
+            html: '<div id="bio_ep_content"> ' +
             
-            '<span></span>' +
-            '<span></span>' +
+            '<span class="pop-up"><h4 id="pop-up">Olá! Parece que você ainda não contratou um consultor para ajudar com a organização do seu closet. <br> <br> Recomendamos escolher um dos nossos Personal Organizers para proporcionar uma experiência única, personalizada e completa com o seu Closetmate. <br> No entanto, se você achar que ainda não é o momento certo, fique à vontade para continuar gerenciando o seu closet <br> da sua forma. <br><br> Estamos aqui para ajudar quando você precisar.<h4></span>' +
+            '<span class="img-popup"><img src ="img/magua.png"></span>' +
             '<span></span>' +
             '<a href="consultores.html" target="_blank" class="bio_btn">&nbsp &nbspEscolha um  consultor &nbsp; <i class="fa fainstagram"></i></a>' + 
             '</div>',
             css: '#bio_ep {width: 700px; height: 500px; color: #333; background-color: #fafafa; text-align: center;background-image: url(pop-up/imagens-pop/);background-size: cover;}' +
-            '#bio_ep_content {padding: 400px 0 0 0; font-family: inherit;}' +
+            '#bio_ep_content {font-family: inherit;}' +
             '#bio_ep_content span:nth-child(2) {display: block; color: #000; font-size: 32px; font-weight: 600;}' +
             '#bio_ep_content span:nth-child(3) {display: block; font-size: 16px;}' +
             '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +

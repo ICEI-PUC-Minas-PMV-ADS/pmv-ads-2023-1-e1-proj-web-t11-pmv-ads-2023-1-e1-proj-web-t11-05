@@ -919,6 +919,7 @@ a.bio_btn{
   font-weight: 550;
   letter-spacing: 2px;
   width: 390px;
+  margin-top: 40px;
   border-left: 30px;
   align-content: center;
   align-items: center;
@@ -1424,6 +1425,48 @@ button.btn.btn-cadastro1{
   text-decoration: none;
 }
 
+#pop-up{
+  text-align: center;
+  margin-top: 85px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.img-popup{
+  position:absolute;
+  transform: translate(-180px, -300px)
+}
+
+#bio_ep_close:hover{
+  color:black;
+}
+
+#perfilg{
+  margin-top: 50px;
+  margin-left: 570px;
+}
+
+#tit-perfilg{
+  margin-left: 660px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+#txt-perfilg{
+  margin-left: 600px;
+  margin-top: 8px;
+}
+
+#txt-perfilgs{
+  margin-left: 710px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: red;
+}
+
+#txt-sairp{
+  margin-top: 30px;
+}
 
 
   
