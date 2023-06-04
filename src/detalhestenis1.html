@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Closetmate</title>
+    <link rel="icon" type="image/x-icon" href="img/hanger.ico">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="UTF-8" ></script>
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS do Projeto -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CSS Categoria -->
+    <link rel="stylesheet" href="css/categoria.css">
+
+</head>
+<body>
+
+      <div class="itens2" id="camisas_ret">
+         <h3 class = "tit-itens2">Tênis</h3>
+            <span id="tdsitens">
+               <br>
+              <div class="fundo"><img src="img/tenis1.jpg"  id="calca1" title="Tênis Plataforma."></div>
+            </span>
+
+          <span id="det-itens">
+            <p> 
+                <strong><label style="font-weight: 600" for="nome_cad">Nome do item:</label></strong>
+                <input style ="width:80%" id="txt-detitens" name="txt-detitens" readonly="txt-detitens" type="text" placeholder="Tênis Plataforma">
+              </p>
+               
+              <p> 
+                <strong><label style="font-weight: 600" for="marca_caditens">Marca:</label></strong>
+                <input style ="width:80%" id="txt-detitens" name="txt-detitens" type="text" readonly="txt-detitens" placeholder="Zara">
+
+              <p> 
+                <strong></strong><label style="font-weight: 600" for="categoria_caditens">Categoria:</label></p></strong>
+                <select class="opcoes-itens" name="opcoes-itens" style="width:80%" readonly ="opcoes-itens">
+                  <option disabled="disabled" selected="selected">Tênis</option>
+              </select> 
+              </p>
+               
+              <p> 
+                <strong><label style="font-weight: 600" for="desc_itens">Descrição extra:</label></strong>
+                <input id="desc-det-itens" name="desc-det-itens" type="text" readonly = "desc-det-itens" placeholder="Porta do meio, parte inferior nicho 1.">
+              </p>
+          </span>
+
+          <span id="tdsitens">
+            <a onclick="load_page('tenis','conteudo')"><button class="btn-det">X</button></a> 
+             
+          </span>          
+              
+          </span>
+      </div>       
+    
+    <!-- JS Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 
+   <!-- JS do Projeto -->
+   <script src="js/script.js"></script>
+
+</body>
+</html>
