@@ -1,12 +1,23 @@
 # Plano de Testes de Software
-![Caso de Teste CT-01- Login de acesso do usuário Requisitos associados RF-01- O usuário deve ser capaz de realizar o login na plataforma ou o seu cadastro , com isso será possível utilização do mesmo   Objetivo  (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/ff216daa-4a99-4334-97c5-edf415897f99)
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+![Teste 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/3135dbbd-e3da-4407-aa69-dc591ccfa100)
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+![Teste 02](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/742b7473-f491-4d54-a10f-c946f1ea1e88)
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
-## Ferramentas de Testes (Opcional)
+
+![Teste 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/f9b8cd99-c6e4-4eea-a8fb-b0451ba26fa4)
+
+![Teste 04](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/8692485a-5d9a-430a-9dbf-23829ecfbc92)
+
+![Teste 05](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/b2eea391-b836-4cc5-a35b-64c531a987d1)
+
+![Teste 05 (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/4a900fc8-5526-45e6-8621-4c063fe194bc)
+
+![Teste 07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/2c070ec1-5122-448b-b8b2-f5edd0adc28b)
+
+![Teste 08](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/b053fbbc-cb50-42e7-9034-9743fe52e6c7)
+
+![Teste 08 (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/2cfc3452-9983-4043-aedb-5fb5f44d0b1e)
+
 
 Comente sobre as ferramentas de testes utilizadas.
  
