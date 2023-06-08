@@ -1,5 +1,5 @@
 # Plano de Testes de Software
-
+![Caso de Teste CT-01- Login de acesso do usuário Requisitos associados RF-01- O usuário deve ser capaz de realizar o login na plataforma ou o seu cadastro , com isso será possível utilização do mesmo   Objetivo  (1)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/ff216daa-4a99-4334-97c5-edf415897f99)
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
