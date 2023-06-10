@@ -18,7 +18,7 @@ script.js
 
 ### Estrutura de dados:
 
-<!DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -83,5 +83,5 @@ script.js
     <script src="js/script.js"></script>
 
 </body>
-</html>
+</html> -->
 
