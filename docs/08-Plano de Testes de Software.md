@@ -1,5 +1,5 @@
 # Plano de Testes de Software
-![Teste 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/3135dbbd-e3da-4407-aa69-dc591ccfa100)
+![1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/9607e377-0a0f-4175-b32d-7cef95af6dbb)
 
 ![Teste 02](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/108965666/742b7473-f491-4d54-a10f-c946f1ea1e88)
 
