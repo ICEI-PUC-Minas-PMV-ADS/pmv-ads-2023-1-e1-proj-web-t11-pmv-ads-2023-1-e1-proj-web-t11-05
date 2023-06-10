@@ -142,6 +142,9 @@ script.js
 
 Tela que permite ao usuário realizar toda a nvageção na aplicação, montagem do look, acesso a todas as categorias e acesso as "tela de cadastro de itens", "tela de consultores", "tela de looks salvos" e "tela de perfil de usuário".
 
+![homepage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/79be9782-7677-445c-9f12-6259ee89719c)
+
+
 ### Requisitos atendidos:
 ```
 RF-02
