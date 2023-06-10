@@ -62,6 +62,81 @@ script.js
             </div> 
         </div>
 
-</body>
-</html> 
+# Cadastro de usuário
+
+Tela que permite ao usuário realizar o cadastro através do preenchimento dos seguintes dados: nome, telefone, email, senha e sexo.
+
+![cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/3fc6e9c8-6da2-4863-a8f6-24cc2424230e)
+
+### Requisitos atendidos:
+RF-01
+
+### Artefatos da Funcionalidade:
+```
+criarconta.html
+style.css
+script.js
+```
+ 
+### Estrutura de dados:
+
+      <div class="conteudo">
+        <div id="cadastro">
+            <form method="post" action=""> 
+              <div>
+              <img src="img/Closetmatesfundo.png" class="closetimagemcad" alt="Closetmate">
+              </div>
+              <div class="subtitulo_cad" h6 >Preencha os dados abaixo para a criação do seu cadastro:</div></h6> 
+              <p> 
+                <label style="font-weight: 600" for="nome_cad">Seu nome:</label>
+                <input style ="width:95%" id="nome_cad" name="nome_cad" type="text" placeholder="nome" required="required"/>
+              </p>
+               
+              <p> 
+                <label style="font-weight: 600" for="tel_cad">Seu telefone:</label>
+                <input style ="width:95%" id="tel_cad" name="tel_cad" type="tel" placeholder="(00) 0 0000-0000" />
+
+              <p> 
+                <label style="font-weight: 600" for="email_cad">Seu email:</label>
+                <input style ="width:95%" id="email_cad" name="email_cad" type="email" placeholder="contato@closetmate.com"/> 
+              </p>
+               
+              <p> 
+                <label style="font-weight: 600" for="conf_email_cad">Confirme o email:</label>
+                <input style ="width:95%" id="conf_email_cad" name="conf_email_cad" type="email" placeholder="contato@closetmate.com"/>
+              </p>
+
+              <p> 
+                <label style="font-weight: 600" for="senha_cad">Sua senha:</label>
+                <input style ="width:95%" id="senha_cad" name="senha_cad" type="password" placeholder="ex. Ca1234"/>
+              </p>
+
+              <p> 
+                <label style="font-weight: 600" for="senha_cad">Confirme a senha:</label>
+                <input style ="width:95%" id="conf_senha_cad" name="conf_senha_cad" type="password" placeholder="ex. Ca1234"/>
+              </p>
+
+              <div class="row">
+                <label style="font-weight: 600" for="Sexo_cad">Selecione o sexo:</label>
+                <select class="opcoes" name="assunto">
+                    <option disabled="disabled" selected="selected">Selecione a opção</option>
+                    <option>Feminino</option>
+                    <option>Masculino</option>
+                    <option>Prefiro não dizer</option>
+                </select>
+              </div> 
+            </form>
+            <div class="link_cadastro">
+              <a href="index.html"><button type="submit" class= "btn btn-cadastro" style="text-decoration:none">Cadastrar</button></a>
+            </div>
+            <p class="link">  
+              Já tem conta?
+              <a href="login.html"> Ir para Login </a>
+            </p>
+          </div>
+        </div>
+      </div>  
+    </div> 
+
+
 
