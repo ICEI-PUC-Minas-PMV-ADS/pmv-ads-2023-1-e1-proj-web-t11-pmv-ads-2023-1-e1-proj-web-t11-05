@@ -342,6 +342,9 @@ editar.js
 
 Tela que permite ao usuário adicionar novos items, adicionando descrições extras para auxiliar na organização fisica do closet.
 
+![Cadastro de itens](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/ef7ce568-a485-4a98-9a10-81f8c74b0aee)
+
+
 ### Requisitos atendidos:
 ```
 RF-04
