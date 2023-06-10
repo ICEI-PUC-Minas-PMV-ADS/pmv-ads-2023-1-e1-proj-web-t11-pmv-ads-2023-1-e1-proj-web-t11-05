@@ -459,7 +459,7 @@ script.js
                 <strong><a href="login.html" Style="color: rgb(61, 60, 60); text-decoration: none;"> Sair </a></strong>
         </div>
          </div>    
-</header>
+         
      <ul class="menu_index">
         <li> 
             <a href="home.html">Home</a>
