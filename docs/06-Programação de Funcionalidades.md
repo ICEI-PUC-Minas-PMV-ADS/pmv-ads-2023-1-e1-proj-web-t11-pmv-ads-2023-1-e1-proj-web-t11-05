@@ -163,7 +163,7 @@ editar.js
  
 ### Estrutura de dados:
 
-<header class="menu-principal">  
+<!--<header class="menu-principal">  
     <main>
         <div class="logo_index">
             <img src="img/Closetmatecinza.png" style="width:12em" floar="left" title="Closetmate, o seu closet virtual.">
@@ -172,7 +172,7 @@ editar.js
          <div class="nome_usuario">
             <h2>Olá, Ana Alves</h2>
          </div>
-        <div>
+        <div>-->
             <form class="d-flex" role="search">
                 <input class="form-control" type="search" placeholder="Pesquisar" aria-label="pesquisar" style="width: 200px">
                 <button class="btn btn-pesquisar" type="submit">Pesquisar</button>
