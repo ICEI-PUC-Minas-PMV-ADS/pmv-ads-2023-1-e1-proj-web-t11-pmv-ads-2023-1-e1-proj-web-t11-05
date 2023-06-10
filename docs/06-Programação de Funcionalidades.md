@@ -17,6 +17,7 @@ style.css
 script.js
 
 ### Estrutura de dados:
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
