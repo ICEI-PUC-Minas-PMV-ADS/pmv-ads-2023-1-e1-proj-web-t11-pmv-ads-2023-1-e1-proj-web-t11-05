@@ -164,7 +164,6 @@ editar.js
 ### Estrutura de dados:
 
 <!--<header class="menu-principal">  
-    <main>
         <div class="logo_index">
             <img src="img/Closetmatecinza.png" style="width:12em" floar="left" title="Closetmate, o seu closet virtual.">
         </div>
@@ -185,8 +184,6 @@ editar.js
                 <strong><a href="login.html" Style="color: rgb(61, 60, 60); text-decoration: none;"> Sair </a></strong>
         </div>
          </div>
-    </main>       
-</header>
     <!-- <ul class="menu_index">
         <li> 
             <a href="home.html">Home</a>
