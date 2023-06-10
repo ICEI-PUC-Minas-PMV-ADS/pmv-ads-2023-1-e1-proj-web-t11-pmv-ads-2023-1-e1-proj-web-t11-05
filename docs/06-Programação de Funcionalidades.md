@@ -172,7 +172,8 @@ editar.js
          <div class="nome_usuario">
             <h2>Olá, Ana Alves</h2>
          </div>
-        <div>
+        <div> -->
+
             <form class="d-flex" role="search">
                 <input class="form-control" type="search" placeholder="Pesquisar" aria-label="pesquisar" style="width: 200px">
                 <button class="btn btn-pesquisar" type="submit">Pesquisar</button>
@@ -335,8 +336,7 @@ editar.js
           });
 
         });
-    </script> -->
-
+    </script>
 
 
 
