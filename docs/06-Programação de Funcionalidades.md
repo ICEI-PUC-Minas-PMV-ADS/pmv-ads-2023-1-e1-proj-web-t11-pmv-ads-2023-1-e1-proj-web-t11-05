@@ -137,6 +137,211 @@ script.js
         </div>
       </div>  
     </div> 
+    
+# Homepage:
+
+Tela que permite ao usuário realizar toda a nvageção na aplicação, montagem do look, acesso a todas as categorias e acesso as "tela de cadastro de itens", "tela de consultores", "tela de looks salvos" e "tela de perfil de usuário".
+
+### Requisitos atendidos:
+```
+RF-02
+RF-03
+RF-06
+RF-07
+```
+
+### Artefatos da Funcionalidade:
+```
+index.html
+home.html
+style.css
+script.js
+bioep.js
+bioep.min.js
+editar.js
+```
+ 
+### Estrutura de dados:
+
+<header class="menu-principal">  
+    <main>
+        <div class="logo_index">
+            <img src="img/Closetmatecinza.png" style="width:12em" floar="left" title="Closetmate, o seu closet virtual.">
+        </div>
+       <!-- <div class="header_1">-->
+         <div class="nome_usuario">
+            <h2>Olá, Ana Alves</h2>
+         </div>
+        <div>
+            <form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="Pesquisar" aria-label="pesquisar" style="width: 200px">
+                <button class="btn btn-pesquisar" type="submit">Pesquisar</button>
+              </form>
+        </div> 
+        <div class="logo_perfil">
+          <a href="perfil.html" target="_blank"><img src="img/perfil.png" style="width:5em" id="logo-perfil" title="Acesse o seu perfil."></a> 
+            <p class="link_perfil"> 
+                <strong><a href="login.html" Style="color: rgb(61, 60, 60); text-decoration: none;"> Sair </a></strong>
+        </div>
+         </div>
+    </main>       
+</header>
+     <ul class="menu_index">
+        <li> 
+            <a href="home.html">Home</a>
+        </li>
+
+        <li>
+            <a href="consultores.html">Consultores</a>
+        </li>
+
+        <li>
+           <a href="seuslooks.html">Seus Looks</a>
+        </li>
+     </ul>
+
+          <!-- Menu Categorias -->
+      <div class="tit-categoria">
+        <h4 class="titulo">Categorias</h4>
+        <div class="barra-lateral">
+          <nav>
+            <div class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="side-bar active">
+              <div class="close-btn">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="menu">
+              <div class="item">
+                <a class="sub-btn"><i class="fas fa-tshirt"></i>Roupas<i class="fas fa-angle-right dropdown"></i></a>
+                <div class="sub-menu">
+                      <a onclick="load_page('camisas','conteudo')" class="sub-item">Camisas</a>
+                      <a onclick="load_page('calcas','conteudo')" class="sub-item">Calças</a>
+                     
+                </div>
+                <div class="item">
+                  <a class="sub-btn"><i class="fas fa-solid fa-socks"></i>Calçados<i class="fas fa-angle-right dropdown"></i></a>
+                  <div class="sub-menu">
+                    <a onclick="load_page('salto','conteudo')" class="sub-item">Salto Alto</a>
+                    <a onclick="load_page('tenis','conteudo')" class="sub-item">Tênis</a>
+                   
+                  </div>
+                  <div class="item">
+                      <a class="sub-btn"><i class="fas fa-solid fa-gem"></i>Acessórios<i class="fas fa-angle-right dropdown"></i></a>
+                      <div class="sub-menu">
+                       <a onclick="load_page('oculos','conteudo')" class="sub-item">Óculos de sol</a>
+                                      
+                      </div>
+                </div>  
+          </nav>
+        </div>
+      </div>
+      <div class="itens" id="conteudo">
+        <span>
+          <div class="espaco"></div>
+        </span>
+
+          <h3>Camisas</h3>
+          <span id="tdsitens">
+             <h6>Camisa Listrada</h6>
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Camisa1.jpg"  id="camisa1" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
+             <div class="informacoes">
+                <div class="detalhesitens">
+                  <a  onclick="load_page('detalhes1','conteudo')"><button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button></a>
+                </div>
+                <div class="quantidadevz">
+                  <h6>0 vezes utilizada</h6>
+               </div>
+              </div> 
+          </span>
+
+          <span id="tdsitens">
+             <h6>Camisa Slim Branca</h6>
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Camisa2.jpg" id="camisa2" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
+             <div class="informacoes">
+              <div class="detalhesitens">
+                <a  onclick="load_page('detalhes2','conteudo')"><button class="btndetalhes"  title="Clique para detalhes do item.">Detalhes</button></a>
+              </div>
+              <div class="quantidadevz">
+                <h6>01 vezes utilizada</h6>
+             </div>
+            </div> 
+             <a href="itens.html"><button type="submit" class= "btn btn-adicionar" title="Clique para adicionar novos itens.">+</button></a>
+          </span>
+
+          <span id="tdsitens">
+             <h6>Camisa Branca Regata</h6>
+             <div class="fundo" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"><img src="img/Camisa 3.3.jpg" id="camisa3" class="swing imgitens" draggable="true" ondragstart="return dragStart(event)" title="Arraste para criar o seu look!"></div>
+             <div class="informacoes">
+              <div class="detalhesitens">
+                <a  onclick="load_page('detalhes3','conteudo')"><button class="btndetalhes" title="Clique para detalhes do item.">Detalhes</button></a>
+              </div>
+              <div class="quantidadevz">
+                <h6>02 vezes utilizada</h6>
+             </div>
+            </div> 
+          </span>
+
+          <span>
+            <div class="espaco"></div>
+          </span>
+      </div>
+                
+        <div class="painel-look" title="Crie seu look aqui.">
+          <div class="tit"><h5>Crie seu look</h5></div>
+            <div class="monte_look">
+              <div class=dropzone id="carrinho1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+              <div class=dropzone id="carrinho2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+            </div>
+            <div class="monte_look2"> 
+              <div class=dropzone id="carrinho3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+              <div class=dropzone id="carrinho4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+            </div>
+            <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
+        </div> 
+  
+        <!-- MODAL -->
+        <script type="text/javascript" src="pop-up/js/bioep.min.js"></script>
+        <script type="text/javascript" src="pop-up/js/editar.js"></script>
+        <!-- MODAL -->
+
+
+      <script>
+        function funcao1()
+        {
+        alert("Look salvo com sucesso!");
+        window.location="seuslooks.html";
+        }
+        </script>
+        
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('.sub-btn').click(function(){
+            $(this).next('.sub-menu').slideToggle();
+            $(this).find('.dropdown').toggleClass('rotate');
+          });
+
+          $('.menu-btn').click(function(){
+            $('.side-bar').addClass('active');
+            $('.menu-btn').css("visibility", "hidden");
+          });
+
+          $('.close-btn').click(function(){
+            $('.side-bar').removeClass('active');
+            $('.menu-btn').css("visibility", "visible");
+          });
+
+        });
+    </script>
+
+
+
+
+
+
 
 
 
