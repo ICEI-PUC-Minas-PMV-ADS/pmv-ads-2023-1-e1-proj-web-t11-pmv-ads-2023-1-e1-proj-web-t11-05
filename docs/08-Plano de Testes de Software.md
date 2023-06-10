@@ -1,33 +1,30 @@
 # Plano de Testes de Software
 
-![Teste01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/a42f1fda-0ad8-403d-ba2e-09a56616cd4c)
+![Plano-Teste01](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/c6af30f7-b4c0-49eb-8739-8749c0107643)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Teste02](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/e7f2ae98-48d6-48cc-a3a6-3d68a9d78972)
+![Plano-Teste02e06](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/76298c0d-d20e-4fd1-ae6d-8e8da22c7b62)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Teste03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/f2afcb5b-2991-4915-8d39-a6debf506297)
-![Teste04](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/d14a8ece-8a22-4d09-a2e2-1bbc1b289577)
+![Plano-Teste03](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/d72719f7-07a9-4835-b499-63f25f528466)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Teste05](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/5823dbf2-8ae5-47cc-a3c3-fe457316e759)
+![Plano-Teste04](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/67f30502-5510-49ee-a376-38f74efb1675)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Teste06](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/b1a1b934-63a9-4791-9061-cd3dfbc176cd)
-![Teste07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/30d228cc-91ae-4b63-9713-c0f5c4016d66)
+![Plano-Teste05](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/8804f60e-7dc5-44ee-83b0-822a2300b2bd)13-c0f5c4016d66)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Teste08](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/47639cdc-7251-4905-beb2-a6cd76162de4)
+![Plano-Teste07](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/47c61b7f-99be-4077-98f1-08a8e7b795d4)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Teste09](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/afe6f266-5ddc-4175-a379-f2db0fe060d0)
-![Teste10](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/c6ae6561-0a5d-40bf-bb87-4cccb9cb6566)
+![Plano-Teste08](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/dedd67ab-33ef-4cb1-bfb4-a84a1f85d43c)
 
 
 
