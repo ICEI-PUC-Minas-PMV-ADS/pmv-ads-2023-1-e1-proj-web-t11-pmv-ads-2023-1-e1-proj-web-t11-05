@@ -337,6 +337,88 @@ editar.js
 
         });
     </script>
+    
+# Cadastro de item:
+
+Tela que permite ao usuário adicionar novos items, adicionando descrições extras para auxiliar na organização fisica do closet.
+
+### Requisitos atendidos:
+```
+RF-04
+RF-09
+```
+
+### Artefatos da Funcionalidade:
+```
+index.html
+itens.html
+style.css
+script.js
+```
+ 
+### Estrutura de dados:
+
+      <div class="conteudo-itens">
+        <div class="espaco-itens"></div>
+        <div class="imagem-itens">
+            <div class="espaco2-itens">
+            <br><br><br><br><br><br><br>  
+            </div>
+            <label class="picture" for="picture__input" tabIndex="0">
+            <span class="picture__image">Selecione a imagem</span>
+          </label>
+          
+          <input type="file" name="picture__input" id="picture__input">
+        </div>
+
+        <div id="cadastro-itens">
+            <form method="post" action=""> 
+              <div id="imagem-sub">
+              <img src="img/Closetmatesfundo.png" class="closetimagemcad" alt="Closetmate" style="width:200px">
+              <strong><div class="subtitulo_caditens" h5 >Adicionar itens no Closetmate</div></h5></strong>
+              </div>
+              
+              <br> 
+              <p> 
+                <strong><label style="font-weight: 600" for="nome_cad">Nome do item:</label></strong>
+                <input style ="width:60%" id="nome_caditens" name="nome_caditens" type="text">
+              </p>
+               
+              <p> 
+                <strong><label style="font-weight: 600" for="marca_caditens">Marca:</label></strong>
+                <input style ="width:60%" id="marca_caditens" name="marca_caditens" type="text">
+
+              <p> 
+                <strong></strong><label style="font-weight: 600" for="categoria_caditens">Categoria:</label></p></strong>
+                <select class="opcoes-itens" name="opcoes-itens" style="width:60%">
+                  <option disabled="disabled" selected="selected">Selecione a opção</option>
+                  <option>Camisetas</option>
+                  <option>Calças</option>
+                  <option>Salto Alto</option>
+                  <option>Tênis</option>
+                  <option>Óculos de Sol</option>
+              </select> 
+              </p>
+               
+              <p> 
+                <strong><label style="font-weight: 600" for="desc_itens">Descrição extra:</label></strong>
+                <input id="desc-itens" name="desc-itens" type="text">
+              </p>
+              <div class="row">     
+              </div> 
+            </form>
+            <div class="link_cadastro">
+              <a href=""><button type="submit" class= "btn btn-cadastro1" style="text-decoration:none">Cadastrar</button></a>
+            </div>
+            <span>
+            <a href="home.html"><button id="f-itens">X</button></a>
+            </span>
+        </div>
+      </div>
+
+
+
+
 
 
 
