@@ -186,7 +186,7 @@ editar.js
          </div>
     </main>       
 </header>
-     <ul class="menu_index">
+    <!-- <ul class="menu_index">
         <li> 
             <a href="home.html">Home</a>
         </li>
@@ -198,7 +198,7 @@ editar.js
         <li>
            <a href="seuslooks.html">Seus Looks</a>
         </li>
-     </ul>
+     </ul> -->
 
           <!-- Menu Categorias -->
       <div class="tit-categoria">
