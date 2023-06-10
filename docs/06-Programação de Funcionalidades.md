@@ -8,16 +8,15 @@ Contém os campos de email e senha que, se preenchidos corretamente, permitem o 
 
 ![Login](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/6884221e-c370-49b4-bdc4-82dc46d15f84)
 
-Requisitos atendidos:
+### Requisitos atendidos:
 RF-01
 
-Artefatos da Funcionalidade:
+### Artefatos da Funcionalidade:
 login.html
 style.css
 script.js
 
-Estrutura de dados:
-
+### Estrutura de dados:
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
