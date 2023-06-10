@@ -12,9 +12,9 @@ Contém os campos de email e senha que, se preenchidos corretamente, permitem o 
 RF-01
 
 ### Artefatos da Funcionalidade:
->login.html
->style.css
->script.js
+.login.html
+.style.css
+.script.js
 
 ### Estrutura de dados:
 
