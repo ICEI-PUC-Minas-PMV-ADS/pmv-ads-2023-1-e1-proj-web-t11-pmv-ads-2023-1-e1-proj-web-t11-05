@@ -151,6 +151,7 @@ RF-02
 RF-03
 RF-06
 RF-07
+RF-08
 ```
 
 ### Artefatos da Funcionalidade:
