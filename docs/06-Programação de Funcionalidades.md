@@ -418,6 +418,244 @@ script.js
             </span>
         </div>
       </div>
+      
+# Escolha do Personal Organizer:
+
+Tela que permite ao usuário verificar os consultores cadastrados na plataforma e escolher o que preferir para ser atendido.
+
+![PO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2023-1-e1-proj-web-t11-pmv-ads-2023-1-e1-proj-web-t11-05/assets/126190493/d0bf4ce3-f6d7-45d4-b934-9139ba71c4fb)
+
+### Requisitos atendidos:
+```
+RF-05
+```
+
+### Artefatos da Funcionalidade:
+```
+consultores.html
+itens.html
+style.css
+script.js
+```
+ 
+### Estrutura de dados:
+
+        <div class="logo_index">
+            <img src="img/Closetmatecinza.png" style="width:12em" floar="left" title="Closetmate, o seu closet virtual.">
+        </div>
+       <!-- <div class="header_1">-->
+         <div class="nome_usuario">
+            <h2>Olá, Ana Alves</h2>
+         </div>
+        <div>
+            <form class="d-flex" role="search">
+                <input class="form-control" type="search" placeholder="Pesquisar" aria-label="pesquisar" style="width: 200px">
+                <button class="btn btn-pesquisar" type="submit">Pesquisar</button>
+              </form>
+        </div> 
+        <div class="logo_perfil">
+          <a href="perfil.html" target="_blank"><img src="img/perfil.png" style="width:5em" id="logo-perfil" title="Acesse o seu perfil."></a> 
+            <p class="link_perfil"> 
+                <strong><a href="login.html" Style="color: rgb(61, 60, 60); text-decoration: none;"> Sair </a></strong>
+        </div>
+         </div>    
+</header>
+     <ul class="menu_index">
+        <li> 
+            <a href="home.html">Home</a>
+        </li>
+
+        <li>
+            <a href="consultores.html">Consultores</a>
+        </li>
+
+        <li>
+           <a href="seuslooks.html">Seus Looks</a>
+        </li>
+     </ul>
+
+          <!-- Menu Categorias -->
+      <div class="tit-categoria">
+        <h4 class="titulo">Categorias</h4>
+        <div class="barra-lateral">
+          <nav>
+            <div class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="side-bar active">
+              <div class="close-btn">
+                <i class="fas fa-times"></i>
+              </div>
+              <div class="menu">
+              <div class="item">
+                <a class="sub-btn"><i class="fas fa-tshirt"></i>Roupas<i class="fas fa-angle-right dropdown"></i></a>
+                <div class="sub-menu">
+                      <a onclick="load_page('camisas','conteudo')" class="sub-item">Camisas</a>
+                      <a onclick="load_page('calcas','conteudo')" class="sub-item">Calças</a>
+                     
+                </div>
+                <div class="item">
+                  <a class="sub-btn"><i class="fas fa-solid fa-socks"></i>Calçados<i class="fas fa-angle-right dropdown"></i></a>
+                  <div class="sub-menu">
+                    <on click iframe src="consultores.html" class="sub-item"></iframe>
+                    <a href="#" class="sub-item">Tênis casual</a>
+                    <a href="#" class="sub-item">Tênis esportivo</a>
+                   
+                  </div>
+                  <div class="item">
+                      <a class="sub-btn"><i class="fas fa-solid fa-gem"></i>Acessórios<i class="fas fa-angle-right dropdown"></i></a>
+                      <div class="sub-menu">
+                        <a href="#" class="sub-item">Bolsas</a>
+                        <a href="#" class="sub-item">Óculos de sol</a>
+                                      
+                      </div>
+                </div>  
+          </nav>
+        </div>
+      </div>
+      <div class="itens" id="conteudo">
+        <span>
+          <div class="espaco"></div>
+        </span>
+
+          <h3>Consultores</h3>
+          <span id="tdsitens">
+             <h6>Giulia Gomez</h6>
+             <div class="fundo"><img src="img/PO3.jpg"  id="po01" style="cursor: default;"class="swing imgitens" draggable="true" title="Giulia Gomez, sua personal organizer!"></div>
+             <div class="informacoes">
+                <div class="center">
+                    <a href="javascript:void(0)" onclick="Avaliar(1)">
+                        <img src="img/star0.png" id="s1"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                        <img src="img/star0.png" id="s2"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                        <img src="img/star0.png" id="s3"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                        <img src="img/star0.png" id="s4"></a>
+                        
+                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                        <img src="img/star0.png" id="s5"></a>
+                </div>
+                <br>
+                <div class="quantidadevz">
+                    <a href="https://web.whatsapp.com/" title="Entre em contato!" style="text-decoration: none;" target="_blank">
+                        <img class="whats" src="img/whatsapp.png">  Entre em contato</a>
+               </div>
+              </div> 
+          </span>
+
+          <span id="tdsitens">
+             <h6>Thomaz Vitorino</h6>
+             <div class="fundo"><img src="img/PO2.jpg" id="po02" style="cursor: default;" class="swing imgitens" title="Thomaz Vitorino, seu personal organizer!"></div>
+             <div class="informacoes">
+              <div class="detalhesitens">
+                <a href="javascript:void(0)" onclick="Avaliar2(1)">
+                    <img src="img/star0.png" id="s12"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar2(2)">
+                    <img src="img/star0.png" id="s22"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar2(3)">
+                    <img src="img/star0.png" id="s32"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar2(4)">
+                    <img src="img/star0.png" id="s42"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar2(5)">
+                    <img src="img/star0.png" id="s52"></a>
+             </div>
+              <div class="quantidadevz">
+                <a href="https://web.whatsapp.com/" title="Entre em contato!" style="text-decoration: none;" target="_blank">
+                    <img class="whats" src="img/whatsapp.png">  Entre em contato</a>
+             </div>
+            </div> 
+           <a href="itens.html"><button type="submit" class= "btn btn-adicionar" title="Clique para adicionar novos itens." style="visibility: hidden;">+</button></a>
+          </span>
+
+          <span id="tdsitens">
+             <h6>Ursula Bartolli</h6>
+             <div class="fundo"><img src="img/PO1.jpg" id="po01" style="cursor: default;" class="swing imgitens" draggable="true" title="Ursula Bartolli, sua personal organizer!"></div>
+             <div class="informacoes">
+              <div class="detalhesitens">
+                <a href="javascript:void(0)" onclick="Avaliar3(1)">
+                    <img src="img/star0.png" id="s13"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar3(2)">
+                    <img src="img/star0.png" id="s23"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar3(3)">
+                    <img src="img/star0.png" id="s33"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar3(4)">
+                    <img src="img/star0.png" id="s43"></a>
+                    
+                    <a href="javascript:void(0)" onclick="Avaliar3(5)">
+                    <img src="img/star0.png" id="s53"></a>
+              </div>
+              <div class="quantidadevz">
+                <a href="https://web.whatsapp.com/" title="Entre em contato!" style="text-decoration: none;" target="_blank">
+                    <img class="whats" src="img/whatsapp.png">  Entre em contato</a>
+                
+             </div>
+            </div> 
+          </span>
+
+          <span>
+            <div class="espaco"></div>
+          </span>
+      </div>
+                
+        <div class="painel-look" title="Crie seu look aqui.">
+          <div class="tit"><h5>Crie seu look</h5></div>
+            <div class="monte_look">
+              <div class=dropzone id="carrinho1" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+              <div class=dropzone id="carrinho2" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+            </div>
+            <div class="monte_look2"> 
+              <div class=dropzone id="carrinho3" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+              <div class=dropzone id="carrinho4" ondrop="return dragDrop(event)" ondragover="return dragOver(event)"></div>
+            </div>
+         <input type="button" class= "btn btn-salvar" onclick="funcao1()" value="Salvar Look" title="Clique para salvar seu look.">
+        </div> 
+  
+
+      <script>
+        function funcao1()
+        {
+        alert("Look salvo com sucesso!");
+        window.location="seuslooks.html";
+        }
+        </script>
+        
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+
+          $('.sub-btn').click(function(){
+            $(this).next('.sub-menu').slideToggle();
+            $(this).find('.dropdown').toggleClass('rotate');
+          });
+
+          $('.menu-btn').click(function(){
+            $('.side-bar').addClass('active');
+            $('.menu-btn').css("visibility", "hidden");
+          });
+
+          $('.close-btn').click(function(){
+            $('.side-bar').removeClass('active');
+            $('.menu-btn').css("visibility", "visible");
+          });
+
+        });
+    </script>
+
+
+
+
+
 
 
 
