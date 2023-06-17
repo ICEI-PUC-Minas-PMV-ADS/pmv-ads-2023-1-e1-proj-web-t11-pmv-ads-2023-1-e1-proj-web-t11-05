@@ -65,14 +65,21 @@
               </div> 
             </form>
             <div class="link_cadastro">
-              <a href=""><button type="submit" class= "btn btn-cadastro1" style="text-decoration:none">Cadastrar</button></a>
+              <a href=""><button type="submit" class= "btn btn-cadastro1"  onclick="funcao2()" style="text-decoration:none">Cadastrar</button></a>
             </div>
             <span>
             <a href="home.html"><button id="f-itens">X</button></a>
             </span>
         </div>
       </div>
-
+      
+      <script>
+        function funcao2()
+        {
+        alert("Item incluido com sucesso!");
+        window.location="itens.html";
+        }
+        </script>
       
       <!-- JS Bootstrap -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> 

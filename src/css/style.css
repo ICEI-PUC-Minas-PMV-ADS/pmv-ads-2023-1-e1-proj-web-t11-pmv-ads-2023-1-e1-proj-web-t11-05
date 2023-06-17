@@ -1424,6 +1424,11 @@ button.btn.btn-cadastro1{
   text-decoration: none;
 }
 
+  button.btn.btn-cadastro1:hover{
+    color:black;
+
+  }
+
 #pop-up{
   text-align: center;
   margin-top: 85px;
